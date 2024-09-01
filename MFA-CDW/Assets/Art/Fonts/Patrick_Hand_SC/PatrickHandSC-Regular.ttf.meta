@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 66567ef3261738441b5f62dd6ee49ef5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Patrick Hand SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 00f9e3e046ba9e74da03f04c09cb4235, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
