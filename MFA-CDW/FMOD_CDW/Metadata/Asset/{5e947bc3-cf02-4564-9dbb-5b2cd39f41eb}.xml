@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{5e947bc3-cf02-4564-9dbb-5b2cd39f41eb}">
+		<property name="assetPath">
+			<value>SFX/Bike Sounds Expo 2024/Dismount/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{875880d4-bbbc-4179-9a27-5a47f031f000}</destination>
+		</relationship>
+	</object>
+</objects>

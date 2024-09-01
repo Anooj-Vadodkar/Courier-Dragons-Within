@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{91f34aba-1d03-43c8-9b58-57d06b5d349f}">
+		<property name="assetPath">
+			<value>SFX/Footsteps/Grass Revised/SX_Fs_grass07.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.53097916666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{875880d4-bbbc-4179-9a27-5a47f031f000}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1cdf9a37-cb5a-460b-8baa-bdf180a7b488}">
+		<property name="name">
+			<value>PAR_DX_TAG_EMOTE_SWITCHER</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c3fe01a6-2be7-4a13-a813-7f3d41b216e0}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c3fe01a6-2be7-4a13-a813-7f3d41b216e0}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

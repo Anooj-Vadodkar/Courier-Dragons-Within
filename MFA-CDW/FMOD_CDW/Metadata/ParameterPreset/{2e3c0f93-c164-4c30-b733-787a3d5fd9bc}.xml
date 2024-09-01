@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2e3c0f93-c164-4c30-b733-787a3d5fd9bc}">
+		<property name="name">
+			<value>PAR_CONV_MX_SWITCHER</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{72d63b1a-7dfe-4016-9872-0905e6d46ac9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{72d63b1a-7dfe-4016-9872-0905e6d46ac9}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>2</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>L1</value>
+			<value>L2</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

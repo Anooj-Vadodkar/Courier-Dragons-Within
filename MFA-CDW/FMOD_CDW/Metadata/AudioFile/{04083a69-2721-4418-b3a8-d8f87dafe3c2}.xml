@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{04083a69-2721-4418-b3a8-d8f87dafe3c2}">
+		<property name="assetPath">
+			<value>Music/MX_Cycling_VSlice_R1_70bpm_Bbmaj.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>68.571437500000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{875880d4-bbbc-4179-9a27-5a47f031f000}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{be9fdab8-256c-4bad-98ea-970b389a994a}">
+		<property name="name">
+			<value>PAR_AX_VISTAWIND</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{cd0c41cd-ba16-4fc1-beec-71edeeaa6526}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{cd0c41cd-ba16-4fc1-beec-71edeeaa6526}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.23999999463558197</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

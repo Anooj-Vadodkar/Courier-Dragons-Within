@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3d219beb-e4b7-40a6-91aa-b520a8e88fb7}">
+		<property name="name">
+			<value>PAR_SX_RidingOnGravel_Intensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{35669489-ccee-4e93-8c26-8256d66314d6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{35669489-ccee-4e93-8c26-8256d66314d6}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

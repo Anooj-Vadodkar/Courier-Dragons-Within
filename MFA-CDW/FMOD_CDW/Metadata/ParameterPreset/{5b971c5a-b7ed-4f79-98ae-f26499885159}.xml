@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{5b971c5a-b7ed-4f79-98ae-f26499885159}">
+		<property name="name">
+			<value>PAR_SFX_FOOTSTEP_FADEOUT</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f638e40f-2f74-4b42-844f-dfb0188a96be}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f638e40f-2f74-4b42-844f-dfb0188a96be}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.059999998658895493</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

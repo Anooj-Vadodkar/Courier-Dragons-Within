@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{40191b42-d576-4a39-b431-ce75d8530871}">
+		<property name="name">
+			<value>Med1SFX</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{2737eaf2-3dd5-40cb-938e-f8da5da1c07c}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1af67f86-261f-48e0-8c18-023ad1d9ebc0}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f7290904-1c39-49de-9d6b-f5c9d77fffc0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{2737eaf2-3dd5-40cb-938e-f8da5da1c07c}">
+		<relationship name="effects">
+			<destination>{d1e9f56c-881d-44ab-aa44-d6d07c951d7b}</destination>
+			<destination>{f83771c8-1443-481e-8f54-dbb1c18c71da}</destination>
+			<destination>{e46429f7-1187-4269-90d6-8ca3fff27566}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1af67f86-261f-48e0-8c18-023ad1d9ebc0}" />
+	<object class="MixerBusFader" id="{d1e9f56c-881d-44ab-aa44-d6d07c951d7b}" />
+	<object class="CompressorEffect" id="{f83771c8-1443-481e-8f54-dbb1c18c71da}">
+		<property name="threshold">
+			<value>-16</value>
+		</property>
+		<property name="ratio">
+			<value>3</value>
+		</property>
+		<property name="attackTime">
+			<value>7</value>
+		</property>
+		<property name="releaseTime">
+			<value>400</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{318a9ee6-3252-451a-ace0-2bd89e580b7a}</destination>
+		</relationship>
+	</object>
+	<object class="LowpassSimpleEffect" id="{e46429f7-1187-4269-90d6-8ca3fff27566}">
+		<property name="cutoff">
+			<value>22000</value>
+		</property>
+	</object>
+</objects>

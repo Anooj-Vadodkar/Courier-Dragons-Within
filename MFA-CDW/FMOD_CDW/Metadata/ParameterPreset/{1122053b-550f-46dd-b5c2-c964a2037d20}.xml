@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{1122053b-550f-46dd-b5c2-c964a2037d20}">
+		<property name="name">
+			<value>PAR_SFX_Footstep_Terrain_Switcher</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e882497b-6abc-4fca-9bd8-258750b8d5b4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e882497b-6abc-4fca-9bd8-258750b8d5b4}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

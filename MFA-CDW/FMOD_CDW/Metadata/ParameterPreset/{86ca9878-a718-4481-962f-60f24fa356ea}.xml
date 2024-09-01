@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{86ca9878-a718-4481-962f-60f24fa356ea}">
+		<property name="name">
+			<value>Multi Effect Randomizer</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e7cdff7b-99ac-4c87-accd-2cb61c78027a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e7cdff7b-99ac-4c87-accd-2cb61c78027a}">
+		<property name="maximum">
+			<value>13</value>
+		</property>
+		<property name="initialValue">
+			<value>6.5</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{66607686-6fb1-4115-ad13-e8035ffd90f9}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{66607686-6fb1-4115-ad13-e8035ffd90f9}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="amount">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

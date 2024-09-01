@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{3dd12c75-9eca-43d6-970d-69fe00cae4e2}">
+		<property name="name">
+			<value>PAR_SX_Bicycle_PlayerInput_Switcher</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a297bc7f-37d0-424d-984f-ac14f648c4b1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a297bc7f-37d0-424d-984f-ac14f648c4b1}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

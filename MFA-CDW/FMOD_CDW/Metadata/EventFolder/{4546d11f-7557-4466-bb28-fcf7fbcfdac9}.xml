@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EventFolder" id="{4546d11f-7557-4466-bb28-fcf7fbcfdac9}">
+		<property name="name">
+			<value>CNav 1 Riffs</value>
+		</property>
+		<relationship name="folder">
+			<destination>{51de22bf-da64-4d25-a060-ffb048fa411e}</destination>
+		</relationship>
+	</object>
+</objects>

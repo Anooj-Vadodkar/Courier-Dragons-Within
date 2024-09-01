@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2c829c3c-247e-48ba-86ab-b9fea7c1095a}">
+		<property name="note">
+			<value>0 = Dirt
+1 = Grass
+2 = Sand</value>
+		</property>
+		<property name="assetPath">
+			<value>SFX/Footsteps/Dirt Revised/SX_Fs_dirt09.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.68860416666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{875880d4-bbbc-4179-9a27-5a47f031f000}</destination>
+		</relationship>
+	</object>
+</objects>

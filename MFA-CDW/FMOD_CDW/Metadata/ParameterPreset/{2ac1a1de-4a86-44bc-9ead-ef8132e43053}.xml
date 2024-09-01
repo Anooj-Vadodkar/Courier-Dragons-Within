@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2ac1a1de-4a86-44bc-9ead-ef8132e43053}">
+		<property name="name">
+			<value>PAR_MEDI_MX_SWITCHER_Deprecated</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a036abf4-fdf4-476b-bab4-6a249caca8ff}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a036abf4-fdf4-476b-bab4-6a249caca8ff}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>L1</value>
+			<value>L2</value>
+			<value>L3</value>
+			<value>L4</value>
+			<value>L5</value>
+			<value>L6</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

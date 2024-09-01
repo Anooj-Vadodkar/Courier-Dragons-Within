@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{957f2832-8834-464b-8706-0eeeda37a51d}">
+		<property name="name">
+			<value>PAR_DX_CHASE_EMOTE_SWITCHER</value>
+		</property>
+		<relationship name="folder">
+			<destination>{df6f5b1a-edd9-4693-a524-9d0b2cfa19a4}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{1eed51bc-ce13-4fcc-86a1-9f1c01fffd1f}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{1eed51bc-ce13-4fcc-86a1-9f1c01fffd1f}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

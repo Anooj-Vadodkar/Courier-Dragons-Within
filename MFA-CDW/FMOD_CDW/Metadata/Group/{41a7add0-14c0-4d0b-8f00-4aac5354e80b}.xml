@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{41a7add0-14c0-4d0b-8f00-4aac5354e80b}">
+		<property name="volume">
+			<value>-2</value>
+		</property>
+		<property name="name">
+			<value>Dialogue</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7d7c0caa-6043-4be0-9d03-4de0eff5b31b}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{dbba6ba6-eab2-4562-8091-3ccae3214ce7}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{f7290904-1c39-49de-9d6b-f5c9d77fffc0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7d7c0caa-6043-4be0-9d03-4de0eff5b31b}">
+		<relationship name="effects">
+			<destination>{72169bb7-e25d-4e4a-9d76-660bee0ea381}</destination>
+			<destination>{318a9ee6-3252-451a-ace0-2bd89e580b7a}</destination>
+			<destination>{138f56d4-61dc-4f3b-bc9f-7bad5988fa41}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{dbba6ba6-eab2-4562-8091-3ccae3214ce7}" />
+	<object class="MixerBusFader" id="{72169bb7-e25d-4e4a-9d76-660bee0ea381}" />
+	<object class="Sidechain" id="{318a9ee6-3252-451a-ace0-2bd89e580b7a}" />
+	<object class="LowpassSimpleEffect" id="{138f56d4-61dc-4f3b-bc9f-7bad5988fa41}">
+		<property name="cutoff">
+			<value>22000</value>
+		</property>
+	</object>
+</objects>
