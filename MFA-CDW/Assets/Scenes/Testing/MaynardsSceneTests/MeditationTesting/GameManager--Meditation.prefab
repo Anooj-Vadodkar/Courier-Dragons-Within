@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4206716003134718790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4206716003134718788}
+  - component: {fileID: 4206716003134718791}
+  m_Layer: 0
+  m_Name: GameManager--Meditation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206716003134718788
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206716003134718790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.906021, y: -9.02731, z: 40.91146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4206716003134718791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4206716003134718790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d456877ff8a8340870182a99447232, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inMeditation: 1
+  mediMusic:
+    Guid:
+      Data1: -982782187
+      Data2: 1287452505
+      Data3: -1810735431
+      Data4: -650959581
+    Path: event:/Music/EVNT_LP_MX_Meditation
+  natureAmbient:
+    Guid:
+      Data1: 288423904
+      Data2: 1226118664
+      Data3: -471536967
+      Data4: 2028599894
+    Path: event:/Ambience/EVNT_LP_AX_Conversation_RustlingLeaves_Birds
