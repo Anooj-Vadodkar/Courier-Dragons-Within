@@ -1,0 +1,2209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9058671665606323649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Sam_Wish
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Sam_Wish
+  Guid:
+    Data1: -189038967
+    Data2: 1141882545
+    Data3: 2066151812
+    Data4: 1967629370
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-8580588300614572609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_CDW/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638601850331087640
+  FileSizes:
+  - Name: Desktop
+    Value: 5014
+  Exists: 1
+--- !u!114 &-8424023372989455619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_AX_Conversation_RustlingLeaves_Birds/PAR_AX_SCATTERER_TOGGLE
+  m_EditorClassIdentifier: 
+  Name: PAR_AX_SCATTERER_TOGGLE
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2580732842
+    data2: 4158941427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8401084622382804835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Meditation_ChaseOpeningLine
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Meditation_ChaseOpeningLine
+  Guid:
+    Data1: -35314782
+    Data2: 1195558236
+    Data3: 1008404157
+    Data4: -1518421637
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7073380043846703535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Sam_Insult
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Sam_Insult
+  Guid:
+    Data1: -2009515667
+    Data2: 1198220945
+    Data3: 1330852484
+    Data4: -1849498766
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6884454168063326405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riffs_All_Together
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riffs_All_Together
+  Guid:
+    Data1: 2049626080
+    Data2: 1170885899
+    Data3: -2038619509
+    Data4: -191078478
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6556866135131395917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_MX_Conversation/PAR_CONV_MX_SWITCHER
+  m_EditorClassIdentifier: 
+  Name: PAR_CONV_MX_SWITCHER
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2770644172
+    data2: 2030628906
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - L1
+  - L2
+  Exists: 1
+--- !u!114 &-6347182838169959821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Meditation 1 SFX/EVNT_OS_SX_Fighting
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Meditation 1 SFX/EVNT_OS_SX_Fighting
+  Guid:
+    Data1: 372780037
+    Data2: 1167685084
+    Data3: 471229869
+    Data4: -529803118
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6336698498156769291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_LP_SX_BicycleGearsTurning
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_LP_SX_BicycleGearsTurning
+  Guid:
+    Data1: 1326528039
+    Data2: 1073826496
+    Data3: -999598950
+    Data4: -556974658
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
+--- !u!114 &-6152287625119534110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FMOD_CDW/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638601850331047638
+  FileSizes:
+  - Name: Desktop
+    Value: 25721888
+  Exists: 1
+--- !u!114 &-6149305200571236958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_ChaseSitting
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_ChaseSitting
+  Guid:
+    Data1: -1693292520
+    Data2: 1220940905
+    Data3: -1234363476
+    Data4: 9261882
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6005266012396670007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EVNT_LP_MX_Meditation_2
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EVNT_LP_MX_Meditation_2
+  Guid:
+    Data1: 1100617459
+    Data2: 1227079588
+    Data3: 2035724696
+    Data4: 798855521
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8032828482796074324}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 386105
+--- !u!114 &-5938589863245033052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_Inhale
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_Inhale
+  Guid:
+    Data1: 1607433864
+    Data2: 1194681581
+    Data3: -1163965817
+    Data4: 80625620
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &-5854237424259427080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_Footsteps
+  Guid:
+    Data1: -625367794
+    Data2: 1089520746
+    Data3: 1007115955
+    Data4: -277932830
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 667481450282446686}
+  - {fileID: -4424749984270154143}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5797387441401961587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_LP_SX_Thoughts
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_LP_SX_Thoughts
+  Guid:
+    Data1: -334858738
+    Data2: 1319409433
+    Data3: 726986881
+    Data4: -2092303878
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -4459728092227744290}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36000
+--- !u!114 &-5796403855016635325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_Random_Bird_Sounds
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_Random_Bird_Sounds
+  Guid:
+    Data1: 1283817294
+    Data2: 1125127797
+    Data3: -1697604955
+    Data4: -841658608
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6100
+--- !u!114 &-5765032886992788232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EVNT_LP_MX_CNav_1_Loop
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EVNT_LP_MX_CNav_1_Loop
+  Guid:
+    Data1: 190500188
+    Data2: 1206138814
+    Data3: 890946991
+    Data4: 2133562969
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 50999
+--- !u!114 &-5722025937899417909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption2
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption2
+  Guid:
+    Data1: 2103319665
+    Data2: 1208777693
+    Data3: -873257318
+    Data4: -945801547
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-5591912838555172511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_ChaseStanding
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_ChaseStanding
+  Guid:
+    Data1: 1252455201
+    Data2: 1336630883
+    Data3: -361096530
+    Data4: 485335939
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2020
+--- !u!114 &-5411517076526858693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_OS_AX_WindKickUp_Dragon
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_OS_AX_WindKickUp_Dragon
+  Guid:
+    Data1: 628745538
+    Data2: 1158498883
+    Data3: -1544385147
+    Data4: -1044154462
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14000
+--- !u!114 &-4795924152390324752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Cycling_ChaseMonologue
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Cycling_ChaseMonologue
+  Guid:
+    Data1: -410799104
+    Data2: 1215940340
+    Data3: 2026758807
+    Data4: 2035763993
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4689498973394213125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_Conversation_Foliage
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_Conversation_Foliage
+  Guid:
+    Data1: 629094357
+    Data2: 1102683951
+    Data3: 1408630402
+    Data4: 1077185262
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 14000
+--- !u!114 &-4679614414736317330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption1
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption1
+  Guid:
+    Data1: -1888533407
+    Data2: 1258558217
+    Data3: 701699204
+    Data4: 57216964
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4628193476381294875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_LP_SX_RidingOnGravel
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_LP_SX_RidingOnGravel
+  Guid:
+    Data1: -1361830692
+    Data2: 1255357148
+    Data3: 1971064732
+    Data4: 1944784613
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3629257872589551214}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36000
+--- !u!114 &-4459728092227744290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_SX_Thoughts/PAR_SX_Thought_Lowpass
+  m_EditorClassIdentifier: 
+  Name: PAR_SX_Thought_Lowpass
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 423705039
+    data2: 1123015646
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4424749984270154143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_OS_SX_Footsteps/PAR_SFX_FOOTSTEP_FADEOUT
+  m_EditorClassIdentifier: 
+  Name: PAR_SFX_FOOTSTEP_FADEOUT
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3273490676
+    data2: 2055279532
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4177801917005535916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_UI
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_UI
+  Guid:
+    Data1: 1427651822
+    Data2: 1132694543
+    Data3: 1031929246
+    Data4: -997754542
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56000
+--- !u!114 &-3972598544078916404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Meditation 1 SFX/EVNT_OS_SX_BikeCrash
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Meditation 1 SFX/EVNT_OS_SX_BikeCrash
+  Guid:
+    Data1: -1245868763
+    Data2: 1098941989
+    Data3: -1371682902
+    Data4: -1955356610
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3768005472213245182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_TagEmotes
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_TagEmotes
+  Guid:
+    Data1: -69725317
+    Data2: 1205203065
+    Data3: 593815968
+    Data4: 392777180
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7473404327256945664}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3727585743190359047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_VistaWind
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_VistaWind
+  Guid:
+    Data1: -100269813
+    Data2: 1335586367
+    Data3: 836268696
+    Data4: 1069918522
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 19500
+--- !u!114 &-3629257872589551214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_SX_RidingOnGravel/PAR_SX_RidingOnGravel_Intensity
+  m_EditorClassIdentifier: 
+  Name: PAR_SX_RidingOnGravel_Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1855808400
+    data2: 2422414659
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3537556238130633413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_SX_BikeSounds/PAR_SX_Bicycle_PlayerInput_Switcher
+  m_EditorClassIdentifier: 
+  Name: PAR_SX_Bicycle_PlayerInput_Switcher
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2229367204
+    data2: 4187928726
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-3536690915342230108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_BikeCrashing
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_BikeCrashing
+  Guid:
+    Data1: -2061434739
+    Data2: 1189491188
+    Data3: -1982321022
+    Data4: -1353073496
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-2991427252721616604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EVNT_LP_MX_Cycling
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EVNT_LP_MX_Cycling
+  Guid:
+    Data1: -1411897758
+    Data2: 1231414608
+    Data3: 26281870
+    Data4: 192446444
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 75428
+--- !u!114 &-2693831733971553448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_ChaseEmotes
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_ChaseEmotes
+  Guid:
+    Data1: 1468587320
+    Data2: 1266085237
+    Data3: 1896510087
+    Data4: -169178220
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -846859108447580963}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-2524796259378282618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/PauseMenu
+  m_EditorClassIdentifier: 
+  Path: snapshot:/PauseMenu
+  Guid:
+    Data1: 403136271
+    Data2: 1325067260
+    Data3: -534915393
+    Data4: 1295481092
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-2354152769624911189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PAR_SFX_FOOTSTEP_FADEOUT
+  m_EditorClassIdentifier: 
+  Name: PAR_SFX_FOOTSTEP_FADEOUT
+  StudioPath: parameter:/PAR_SFX_FOOTSTEP_FADEOUT
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3273490676
+    data2: 2055279532
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2220223693543014707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PAR_AX_SCATTERER_TOGGLE
+  m_EditorClassIdentifier: 
+  Name: PAR_AX_SCATTERER_TOGGLE
+  StudioPath: parameter:/PAR_AX_SCATTERER_TOGGLE
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2580732842
+    data2: 4158941427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2215251052251435048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_AX_BirdSounds/Multi Effect Randomizer
+  m_EditorClassIdentifier: 
+  Name: Multi Effect Randomizer
+  StudioPath: 
+  Min: 0
+  Max: 13
+  Default: 6.5
+  ID:
+    data1: 1934223869
+    data2: 4129904620
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-1342317719425871472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_BicycleMount
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_BicycleMount
+  Guid:
+    Data1: -1929341676
+    Data2: 1078617843
+    Data3: -1699871867
+    Data4: 1682124860
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1218865240078965780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EVNT_LP_MX_Meditation
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EVNT_LP_MX_Meditation
+  Guid:
+    Data1: -982782187
+    Data2: 1287452505
+    Data3: -1810735431
+    Data4: -650959581
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3253339971030906478}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 553186
+--- !u!114 &-846859108447580963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_OS_DX_ChaseEmotes/PAR_DX_CHASE_EMOTE_SWITCHER
+  m_EditorClassIdentifier: 
+  Name: PAR_DX_CHASE_EMOTE_SWITCHER
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1142227444
+    data2: 485769627
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-706852492825835167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption3
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption3
+  Guid:
+    Data1: -614274730
+    Data2: 1133770085
+    Data3: -2077207620
+    Data4: -1666972580
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-312253664501598396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff2_Response
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff2_Response
+  Guid:
+    Data1: -1714805936
+    Data2: 1189508964
+    Data3: -1211750485
+    Data4: 1380448666
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-212569229772400891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_WSMeditation
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_WSMeditation
+  Guid:
+    Data1: 1362389338
+    Data2: 1099784691
+    Data3: -1417741168
+    Data4: 1479306046
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16514
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -8580588300614572609}
+  - {fileID: -6152287625119534110}
+  EditorEvents:
+  - {fileID: 1841601206677670912}
+  - {fileID: -5797387441401961587}
+  - {fileID: -1218865240078965780}
+  - {fileID: 5731251132891850509}
+  - {fileID: -4177801917005535916}
+  - {fileID: -6336698498156769291}
+  - {fileID: -2991427252721616604}
+  - {fileID: 1370614231603445891}
+  - {fileID: -4628193476381294875}
+  - {fileID: 659255780729551343}
+  - {fileID: -4795924152390324752}
+  - {fileID: -706852492825835167}
+  - {fileID: -4679614414736317330}
+  - {fileID: -7073380043846703535}
+  - {fileID: -5722025937899417909}
+  - {fileID: -9058671665606323649}
+  - {fileID: 8527272537288759779}
+  - {fileID: 1193556046707374693}
+  - {fileID: -5938589863245033052}
+  - {fileID: 980889552935976046}
+  - {fileID: 2508186170498747273}
+  - {fileID: -8401084622382804835}
+  - {fileID: -5854237424259427080}
+  - {fileID: 6708980588510499258}
+  - {fileID: -212569229772400891}
+  - {fileID: -3536690915342230108}
+  - {fileID: -4689498973394213125}
+  - {fileID: 81387086783230981}
+  - {fileID: 7066407105815910739}
+  - {fileID: 2879990685027630492}
+  - {fileID: -6005266012396670007}
+  - {fileID: -1342317719425871472}
+  - {fileID: -6149305200571236958}
+  - {fileID: -5591912838555172511}
+  - {fileID: 3713424573475248913}
+  - {fileID: -5765032886992788232}
+  - {fileID: -312253664501598396}
+  - {fileID: 3618907034737786077}
+  - {fileID: 5315750474673469860}
+  - {fileID: 2114042994596646165}
+  - {fileID: 5124480799357188039}
+  - {fileID: 5447202927732307207}
+  - {fileID: 5345707776866472503}
+  - {fileID: -6884454168063326405}
+  - {fileID: 3206536579697927781}
+  - {fileID: -6347182838169959821}
+  - {fileID: 134808039125936047}
+  - {fileID: 6432937430785633905}
+  - {fileID: 2719835012875236120}
+  - {fileID: 912601414209535003}
+  - {fileID: 2553307153064902709}
+  - {fileID: -3727585743190359047}
+  - {fileID: -3972598544078916404}
+  - {fileID: -5411517076526858693}
+  - {fileID: 8869861483381100209}
+  - {fileID: -2693831733971553448}
+  - {fileID: -3768005472213245182}
+  - {fileID: -5796403855016635325}
+  - {fileID: -2524796259378282618}
+  - {fileID: 3700810928776568520}
+  EditorParameters:
+  - {fileID: 6157146930030205238}
+  - {fileID: -2220223693543014707}
+  - {fileID: -2354152769624911189}
+  MasterBanks:
+  - {fileID: -6152287625119534110}
+  StringsBanks:
+  - {fileID: -8580588300614572609}
+  cacheTime: 638601850331087640
+  cacheVersion: 131608
+--- !u!114 &81387086783230981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_BirdSounds
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_BirdSounds
+  Guid:
+    Data1: -842838884
+    Data2: 1334672977
+    Data3: 314446502
+    Data4: 1423112499
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2215251052251435048}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
+--- !u!114 &134808039125936047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Meditation 1 SFX/EVNT_LP_SX_ScreechingCacophony
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Meditation 1 SFX/EVNT_LP_SX_ScreechingCacophony
+  Guid:
+    Data1: -694536156
+    Data2: 1156309995
+    Data3: 1040843649
+    Data4: -2019258929
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26000
+--- !u!114 &659255780729551343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_Conversation_RustlingLeaves_Birds
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_Conversation_RustlingLeaves_Birds
+  Guid:
+    Data1: 288423904
+    Data2: 1226118664
+    Data3: -471536967
+    Data4: 2028599894
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2246506959087393158}
+  - {fileID: -8424023372989455619}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 56000
+--- !u!114 &667481450282446686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_OS_SX_Footsteps/PAR_SFX_Footstep_Terrain_Switcher
+  m_EditorClassIdentifier: 
+  Name: PAR_SFX_Footstep_Terrain_Switcher
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3305977805
+    data2: 2752737463
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &912601414209535003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_RealWorld_Exhale
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_RealWorld_Exhale
+  Guid:
+    Data1: -1032244244
+    Data2: 1188159550
+    Data3: 743958184
+    Data4: -795644120
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &980889552935976046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_Exhale
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_Exhale
+  Guid:
+    Data1: -1892997745
+    Data2: 1278836391
+    Data3: 263721638
+    Data4: 2042949429
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &1193556046707374693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Sam_Promise
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Sam_Promise
+  Guid:
+    Data1: 296466687
+    Data2: 1328682744
+    Data3: 1368736694
+    Data4: -907192020
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1370614231603445891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_DistantDragonRoar
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_DistantDragonRoar
+  Guid:
+    Data1: 1111975818
+    Data2: 1129590434
+    Data3: -94181701
+    Data4: 1315809361
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1841601206677670912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EVNT_LP_MX_Conversation
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EVNT_LP_MX_Conversation
+  Guid:
+    Data1: 962380323
+    Data2: 1319778950
+    Data3: -2049862482
+    Data4: -605044495
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6556866135131395917}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 147823
+--- !u!114 &2114042994596646165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff1_Call
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff1_Call
+  Guid:
+    Data1: -1592134989
+    Data2: 1112398707
+    Data3: 279529882
+    Data4: -607241090
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2246506959087393158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_AX_Conversation_RustlingLeaves_Birds/PAR_AX_VISTAWIND
+  m_EditorClassIdentifier: 
+  Name: PAR_AX_VISTAWIND
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2496228750
+    data2: 2309388273
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &2508186170498747273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_FloatingTextStinger
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_FloatingTextStinger
+  Guid:
+    Data1: 279657193
+    Data2: 1104517513
+    Data3: 1153059491
+    Data4: 1674494703
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &2553307153064902709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Meditation 1 SFX/EVNT_LP_SX_YoungChaseCrying
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Meditation 1 SFX/EVNT_LP_SX_YoungChaseCrying
+  Guid:
+    Data1: 966851823
+    Data2: 1237735957
+    Data3: 813225632
+    Data4: 1971893697
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26999
+--- !u!114 &2719835012875236120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_RealWorld_Inhale
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_RealWorld_Inhale
+  Guid:
+    Data1: -821934624
+    Data2: 1211336660
+    Data3: -19410285
+    Data4: -26703150
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2879990685027630492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/EVNT_LP_MX_Meditation_1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/EVNT_LP_MX_Meditation_1
+  Guid:
+    Data1: 1879938307
+    Data2: 1234073751
+    Data3: 175363743
+    Data4: -489661907
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7707332365680215098}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 288000
+--- !u!114 &3206536579697927781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_Pedaling
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_Pedaling
+  Guid:
+    Data1: -1854537760
+    Data2: 1250942029
+    Data3: -486842443
+    Data4: -900344779
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3253339971030906478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_MX_Meditation/PAR_MEDI_MX_SWITCHER_Deprecated
+  m_EditorClassIdentifier: 
+  Name: PAR_MEDI_MX_SWITCHER_Deprecated
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2157241282
+    data2: 842219534
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - L1
+  - L2
+  - L3
+  - L4
+  - L5
+  - L6
+  Exists: 1
+--- !u!114 &3618907034737786077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_ExpoMeditation
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_ExpoMeditation
+  Guid:
+    Data1: -546454157
+    Data2: 1212098085
+    Data3: -392955742
+    Data4: -71031784
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &3700810928776568520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/EVNT_LP_SX_PauseMenu
+  m_EditorClassIdentifier: 
+  Path: event:/UI/EVNT_LP_SX_PauseMenu
+  Guid:
+    Data1: 316963219
+    Data2: 1214186640
+    Data3: -775024496
+    Data4: -1608551796
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8000
+--- !u!114 &3713424573475248913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_BicycleDismount
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_BicycleDismount
+  Guid:
+    Data1: 1735118772
+    Data2: 1227644939
+    Data3: -1610514782
+    Data4: -536272889
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5124480799357188039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff1_Response
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff1_Response
+  Guid:
+    Data1: 1892318646
+    Data2: 1167989942
+    Data3: 1918662808
+    Data4: 1419364041
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5315750474673469860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff3_Call
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff3_Call
+  Guid:
+    Data1: 2125370528
+    Data2: 1101087570
+    Data3: 961235333
+    Data4: -1918086248
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5345707776866472503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff3_Response
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff3_Response
+  Guid:
+    Data1: -1810393633
+    Data2: 1267108349
+    Data3: -755434827
+    Data4: 83253604
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5447202927732307207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff2_Call
+  m_EditorClassIdentifier: 
+  Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riff2_Call
+  Guid:
+    Data1: 319714520
+    Data2: 1278133981
+    Data3: 592729009
+    Data4: -175705754
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5731251132891850509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/DialogueTest
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/DialogueTest
+  Guid:
+    Data1: 443796135
+    Data2: 1290656102
+    Data3: 238657939
+    Data4: -1808140088
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &6157146930030205238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PAR_AX_VISTAWIND
+  m_EditorClassIdentifier: 
+  Name: PAR_AX_VISTAWIND
+  StudioPath: parameter:/PAR_AX_VISTAWIND
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2496228750
+    data2: 2309388273
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &6432937430785633905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Meditation 1 SFX/EVNT_LP_SX_EarthMoving
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Meditation 1 SFX/EVNT_LP_SX_EarthMoving
+  Guid:
+    Data1: -319205678
+    Data2: 1100816839
+    Data3: -137700169
+    Data4: 1199815121
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 44000
+--- !u!114 &6708980588510499258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_BigSurMeadow
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_BigSurMeadow
+  Guid:
+    Data1: 2068854831
+    Data2: 1141593450
+    Data3: 1823977382
+    Data4: 265178775
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 48000
+--- !u!114 &7066407105815910739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_LP_SX_BikeSounds
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_LP_SX_BikeSounds
+  Guid:
+    Data1: 319677921
+    Data2: 1094824538
+    Data3: 1251199147
+    Data4: 889540968
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7737555132432452232}
+  - {fileID: -3537556238130633413}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 36000
+--- !u!114 &7473404327256945664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_OS_DX_TagEmotes/PAR_DX_TAG_EMOTE_SWITCHER
+  m_EditorClassIdentifier: 
+  Name: PAR_DX_TAG_EMOTE_SWITCHER
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1226471
+    data2: 496710431
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &7707332365680215098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_MX_Meditation_1/PAR_MEDI_MX_SWITCHER
+  m_EditorClassIdentifier: 
+  Name: PAR_MEDI_MX_SWITCHER
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 3931497482
+    data2: 718120720
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - State 1
+  - State 2
+  - State 3
+  - State 4
+  Exists: 1
+--- !u!114 &7737555132432452232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_SX_BikeSounds/PAR_SX_RidingOnGravel_Intensity
+  m_EditorClassIdentifier: 
+  Name: PAR_SX_RidingOnGravel_Intensity
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1855808400
+    data2: 2422414659
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &8032828482796074324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_MX_Meditation_2/PAR_MX_MEDI2_SWITCHER
+  m_EditorClassIdentifier: 
+  Name: PAR_MX_MEDI2_SWITCHER
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 291723377
+    data2: 2599940151
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Approach
+  - Confrontation
+  Exists: 1
+--- !u!114 &8527272537288759779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/EVNT_OS_DX_Sam_Question
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/EVNT_OS_DX_Sam_Question
+  Guid:
+    Data1: -863628337
+    Data2: 1225622980
+    Data3: 1756133285
+    Data4: 718589745
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &8869861483381100209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/EVNT_OS_SX_Vista0_LowRoar
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/EVNT_OS_SX_Vista0_LowRoar
+  Guid:
+    Data1: -550271245
+    Data2: 1188068974
+    Data3: 550740900
+    Data4: 471715898
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000

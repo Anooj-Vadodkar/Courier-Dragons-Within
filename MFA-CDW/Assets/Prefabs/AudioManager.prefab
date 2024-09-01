@@ -1,0 +1,294 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3941761258993894137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3941761258993894138}
+  - component: {fileID: 3941761258993894139}
+  m_Layer: 0
+  m_Name: FMODEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3941761258993894138
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941761258993894137}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3941761259747298266}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3941761258993894139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941761258993894137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e383374eed78249aa9b1d2cd3b58d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <natureAmbient>k__BackingField:
+    Guid:
+      Data1: 288423904
+      Data2: 1226118664
+      Data3: -471536967
+      Data4: 2028599894
+    Path: event:/Ambience/EVNT_LP_AX_Conversation_RustlingLeaves_Birds
+  <medi1Music>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <medi2Music>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <medi3Music>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <convoMusic>k__BackingField:
+    Guid:
+      Data1: 962380323
+      Data2: 1319778950
+      Data3: -2049862482
+      Data4: -605044495
+    Path: event:/Music/EVNT_LP_MX_Conversation
+  <bikingMusic>k__BackingField:
+    Guid:
+      Data1: -1411897758
+      Data2: 1231414608
+      Data3: 26281870
+      Data4: 192446444
+    Path: event:/Music/EVNT_LP_MX_Cycling
+  <dragonSFX>k__BackingField:
+    Guid:
+      Data1: 1111975818
+      Data2: 1129590434
+      Data3: -94181701
+      Data4: 1315809361
+    Path: event:/SFX/EVNT_OS_SX_DistantDragonRoar
+  <SamQuestionVO>k__BackingField:
+    Guid:
+      Data1: -863628337
+      Data2: 1225622980
+      Data3: 1756133285
+      Data4: 718589745
+    Path: event:/Dialogue/EVNT_OS_DX_Sam_Question
+  <ChaseOption1>k__BackingField:
+    Guid:
+      Data1: -1888533407
+      Data2: 1258558217
+      Data3: 701699204
+      Data4: 57216964
+    Path: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption1
+  <ChaseOption2>k__BackingField:
+    Guid:
+      Data1: 2103319665
+      Data2: 1208777693
+      Data3: -873257318
+      Data4: -945801547
+    Path: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption2
+  <ChaseOption3>k__BackingField:
+    Guid:
+      Data1: -614274730
+      Data2: 1133770085
+      Data3: -2077207620
+      Data4: -1666972580
+    Path: event:/Dialogue/EVNT_OS_DX_Conversation_ChaseNewOption3
+  <breathIn>k__BackingField:
+    Guid:
+      Data1: 1607433864
+      Data2: 1194681581
+      Data3: -1163965817
+      Data4: 80625620
+    Path: event:/SFX/EVNT_OS_SX_Inhale
+  <breathOut>k__BackingField:
+    Guid:
+      Data1: -1892997745
+      Data2: 1278836391
+      Data3: 263721638
+      Data4: 2042949429
+    Path: event:/SFX/EVNT_OS_SX_Exhale
+  <breathInOutside>k__BackingField:
+    Guid:
+      Data1: -821934624
+      Data2: 1211336660
+      Data3: -19410285
+      Data4: -26703150
+    Path: event:/SFX/EVNT_OS_SX_RealWorld_Inhale
+  <breathOutOutside>k__BackingField:
+    Guid:
+      Data1: -1032244244
+      Data2: 1188159550
+      Data3: 743958184
+      Data4: -795644120
+    Path: event:/SFX/EVNT_OS_SX_RealWorld_Exhale
+  <bikeGearSFX>k__BackingField:
+    Guid:
+      Data1: 1326528039
+      Data2: 1073826496
+      Data3: -999598950
+      Data4: -556974658
+    Path: event:/SFX/EVNT_LP_SX_BicycleGearsTurning
+  <bikeGravelSFX>k__BackingField:
+    Guid:
+      Data1: -1361830692
+      Data2: 1255357148
+      Data3: 1971064732
+      Data4: 1944784613
+    Path: event:/SFX/EVNT_LP_SX_RidingOnGravel
+  <dialogueStinger>k__BackingField:
+    Guid:
+      Data1: 279657193
+      Data2: 1104517513
+      Data3: 1153059491
+      Data4: 1674494703
+    Path: event:/SFX/EVNT_OS_SX_FloatingTextStinger
+  <chaseMonologue>k__BackingField:
+    Guid:
+      Data1: -410799104
+      Data2: 1215940340
+      Data3: 2026758807
+      Data4: 2035763993
+    Path: event:/Dialogue/EVNT_OS_DX_Cycling_ChaseMonologue
+  <footsteps>k__BackingField:
+    Guid:
+      Data1: -625367794
+      Data2: 1089520746
+      Data3: 1007115955
+      Data4: -277932830
+    Path: event:/SFX/EVNT_OS_SX_Footsteps
+  <wsMeditation>k__BackingField:
+    Guid:
+      Data1: 1362389338
+      Data2: 1099784691
+      Data3: -1417741168
+      Data4: 1479306046
+    Path: event:/Dialogue/EVNT_OS_DX_WSMeditation
+  <bikeSounds>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <getOffBike>k__BackingField:
+    Guid:
+      Data1: 1735118772
+      Data2: 1227644939
+      Data3: -1610514782
+      Data4: -536272889
+    Path: event:/SFX/EVNT_OS_SX_BicycleDismount
+  <getOnBike>k__BackingField:
+    Guid:
+      Data1: -1929341676
+      Data2: 1078617843
+      Data3: -1699871867
+      Data4: 1682124860
+    Path: event:/SFX/EVNT_OS_SX_BicycleMount
+  <getUp>k__BackingField:
+    Guid:
+      Data1: 1252455201
+      Data2: 1336630883
+      Data3: -361096530
+      Data4: 485335939
+    Path: event:/SFX/EVNT_OS_SX_ChaseStanding
+  <sitDown>k__BackingField:
+    Guid:
+      Data1: -1693292520
+      Data2: 1220940905
+      Data3: -1234363476
+      Data4: 9261882
+    Path: event:/SFX/EVNT_OS_SX_ChaseSitting
+  <riffsTogether>k__BackingField:
+    Guid:
+      Data1: 2049626080
+      Data2: 1170885899
+      Data3: -2038619509
+      Data4: -191078478
+    Path: event:/Music/CNav 1 Riffs/EVNT_OS_MX_CNav1_Riffs_All_Together
+  <chaseEmotes>k__BackingField:
+    Guid:
+      Data1: 1468587320
+      Data2: 1266085237
+      Data3: 1896510087
+      Data4: -169178220
+    Path: event:/Dialogue/EVNT_OS_DX_ChaseEmotes
+  <tagEmotes>k__BackingField:
+    Guid:
+      Data1: -69725317
+      Data2: 1205203065
+      Data3: 593815968
+      Data4: 392777180
+    Path: event:/Dialogue/EVNT_OS_DX_TagEmotes
+--- !u!1 &3941761259747298264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3941761259747298266}
+  - component: {fileID: 3941761259747298265}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3941761259747298266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941761259747298264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 69.44857, y: 63.45963, z: 226.63391}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3941761258993894138}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3941761259747298265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3941761259747298264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 943d0575967b46e40866121ff343547d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
