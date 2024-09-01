@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+guid: efbfc8e41cffb3541a176f30068472df
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Ysabeau
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 634c6d385c5f7864cb8b1793c8dc04ff, type: 3}
+  - {fileID: 12800000, guid: 1b7ef8272092146468c78a68f14fee97, type: 3}
+  - {fileID: 12800000, guid: 564eea74fe9bc304f929ac41cdab9ad9, type: 3}
+  - {fileID: 12800000, guid: e1b13c222edda2d4f88ceb2a9d5ab28c, type: 3}
+  - {fileID: 12800000, guid: 20fec3dba9597044f9683e7a5fbeb0f2, type: 3}
+  - {fileID: 12800000, guid: 28503bc6b4b697941a33352d96b23d54, type: 3}
+  - {fileID: 12800000, guid: edf47b68f3d112a47a1795b31a644a42, type: 3}
+  - {fileID: 12800000, guid: 7a6d367b19a6c694c990b60569646a6a, type: 3}
+  - {fileID: 12800000, guid: eb522e784c4b9fa4a9dab107238c3eda, type: 3}
+  - {fileID: 12800000, guid: d1fe886196b275f4b8721a34691c05e5, type: 3}
+  - {fileID: 12800000, guid: 32737d87306c9d942bc9868c988f1afe, type: 3}
+  - {fileID: 12800000, guid: effa1cc3bce36d64c81bb26996152695, type: 3}
+  - {fileID: 12800000, guid: 1154acb6e26a859449caa51c13f0e099, type: 3}
+  - {fileID: 12800000, guid: d2d1ce7f67238bd4389368e281e66578, type: 3}
+  - {fileID: 12800000, guid: 0f5c6aebb3fa5aa42916bbeaf51b14fc, type: 3}
+  - {fileID: 12800000, guid: b35acd4cda81d8b49a2ebf88e572e04d, type: 3}
+  - {fileID: 12800000, guid: fc4096533194dcd4eb67b3629582b747, type: 3}
+  - {fileID: 12800000, guid: 11806c3c535abbc4982c1398b3ff6d3e, type: 3}
+  - {fileID: 12800000, guid: 03112399a92ab4344ab9768e23a3cffa, type: 3}
+  - {fileID: 12800000, guid: e3ab439f152b5e7418c5be04b4ed1b55, type: 3}
+  - {fileID: 12800000, guid: 9c595d07445fd794480851afbd943ef0, type: 3}
+  - {fileID: 12800000, guid: e3b13f61f19e81143a7c4798c5bee132, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
