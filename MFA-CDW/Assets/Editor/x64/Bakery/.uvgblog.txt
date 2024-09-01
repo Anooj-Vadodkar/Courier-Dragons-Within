@@ -1,0 +1,433 @@
+2024-5-4
+Rendering UV GBuffer for Day1Scene_MWHVersion_LM0 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA4 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA5 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA6 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA7 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA8 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA9 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA10 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA11 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA12 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA10.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA11.lz4" 2 0 11 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA12.lz4" 2 0 12 0
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_1" 12 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_2" 12 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_0" 12 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_3" 12 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_4" 12 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_5" 12 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_6" 12 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_8" 12 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_7" 12 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_9" 12 0 9 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9" 4 0 9 comp_9.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_10" 12 0 10 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10" 4 0 10 comp_10.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_11" 12 0 11 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11" 4 0 11 comp_11.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_12" 12 0 12 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12" 4 0 12 comp_12.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1_diffuse" 4 16 1 "gi_Day1Scene_MWHVersion_LMA10.bin" "Day1Scene_MWHVersion_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2_diffuse" 4 16 2 "gi_Day1Scene_MWHVersion_LMA20.bin" "Day1Scene_MWHVersion_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0_diffuse" 4 16 0 "gi_Day1Scene_MWHVersion_LM00.bin" "Day1Scene_MWHVersion_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3_diffuse" 4 16 3 "gi_Day1Scene_MWHVersion_LMA30.bin" "Day1Scene_MWHVersion_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4_diffuse" 4 16 4 "gi_Day1Scene_MWHVersion_LMA40.bin" "Day1Scene_MWHVersion_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5_diffuse" 4 16 5 "gi_Day1Scene_MWHVersion_LMA50.bin" "Day1Scene_MWHVersion_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6_diffuse" 4 16 6 "gi_Day1Scene_MWHVersion_LMA60.bin" "Day1Scene_MWHVersion_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8_diffuse" 4 16 8 "gi_Day1Scene_MWHVersion_LMA80.bin" "Day1Scene_MWHVersion_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7_diffuse" 4 16 7 "gi_Day1Scene_MWHVersion_LMA70.bin" "Day1Scene_MWHVersion_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9_diffuse" 4 16 9 "gi_Day1Scene_MWHVersion_LMA90.bin" "Day1Scene_MWHVersion_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10_diffuse" 4 16 10 "gi_Day1Scene_MWHVersion_LMA100.bin" "Day1Scene_MWHVersion_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11_diffuse" 4 16 11 "gi_Day1Scene_MWHVersion_LMA110.bin" "Day1Scene_MWHVersion_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12_diffuse" 4 16 12 "gi_Day1Scene_MWHVersion_LMA120.bin" "Day1Scene_MWHVersion_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1_final" 20 16 1 "gi_Day1Scene_MWHVersion_LMA11.bin" "Day1Scene_MWHVersion_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2_final" 20 16 2 "gi_Day1Scene_MWHVersion_LMA21.bin" "Day1Scene_MWHVersion_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0_final" 20 16 0 "gi_Day1Scene_MWHVersion_LM01.bin" "Day1Scene_MWHVersion_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3_final" 20 16 3 "gi_Day1Scene_MWHVersion_LMA31.bin" "Day1Scene_MWHVersion_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4_final" 20 16 4 "gi_Day1Scene_MWHVersion_LMA41.bin" "Day1Scene_MWHVersion_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5_final" 20 16 5 "gi_Day1Scene_MWHVersion_LMA51.bin" "Day1Scene_MWHVersion_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6_final" 20 16 6 "gi_Day1Scene_MWHVersion_LMA61.bin" "Day1Scene_MWHVersion_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8_final" 20 16 8 "gi_Day1Scene_MWHVersion_LMA81.bin" "Day1Scene_MWHVersion_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7_final" 20 16 7 "gi_Day1Scene_MWHVersion_LMA71.bin" "Day1Scene_MWHVersion_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9_final" 20 16 9 "gi_Day1Scene_MWHVersion_LMA91.bin" "Day1Scene_MWHVersion_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10_final" 20 16 10 "gi_Day1Scene_MWHVersion_LMA101.bin" "Day1Scene_MWHVersion_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11_final" 20 16 11 "gi_Day1Scene_MWHVersion_LMA111.bin" "Day1Scene_MWHVersion_LMA11_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12_final" 20 16 12 "gi_Day1Scene_MWHVersion_LMA121.bin" "Day1Scene_MWHVersion_LMA12_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8_final_HDR.lz4" 4 0 8 comp_indirect8.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7_final_HDR.lz4" 4 0 7 comp_indirect7.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9_final_HDR.lz4" 4 0 9 comp_indirect9.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10_final_HDR.lz4" 4 0 10 comp_indirect10.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11_final_HDR.lz4" 4 0 11 comp_indirect11.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12_final_HDR.lz4" 4 0 12 comp_indirect12.bin
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "1" "Day1Scene_MWHVersion_LMA1_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "2" "Day1Scene_MWHVersion_LMA2_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "0" "Day1Scene_MWHVersion_LM0_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "3" "Day1Scene_MWHVersion_LMA3_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "4" "Day1Scene_MWHVersion_LMA4_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "5" "Day1Scene_MWHVersion_LMA5_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "6" "Day1Scene_MWHVersion_LMA6_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "8" "Day1Scene_MWHVersion_LMA8_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "7" "Day1Scene_MWHVersion_LMA7_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "9" "Day1Scene_MWHVersion_LMA9_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "10" "Day1Scene_MWHVersion_LMA10_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "11" "Day1Scene_MWHVersion_LMA11_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "12" "Day1Scene_MWHVersion_LMA12_final_HDR.lz4"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_1_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_1_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA1_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_1.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_2_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_2_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA2_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_2.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_0_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_0_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LM0_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_0.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_3_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_3_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA3_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_3.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_4_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_4_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA4_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_4.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_5_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_5_Mask.lz4" 512 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA5_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_5.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_6_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_6_Mask.lz4" 512 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA6_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_6.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_8_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_8_Mask.lz4" 256 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA8_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_8.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_7_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_7_Mask.lz4" 256 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA7_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_7.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_9_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_9_Mask.lz4" 64 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA9_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_9.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_10_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_10_Mask.lz4" 512 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA10_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_10.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_11_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_11_Mask.lz4" 256 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA11_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_11.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_12_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_12_Mask.lz4" 64 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA12_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_12.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA1_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA2_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LM0_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA3_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA4_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA5_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA6_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA8_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA8_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA7_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA9_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA9_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA10_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA10_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA11_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA11_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA12_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA12_final.hdr" 1024
+Loaded vertex shader: quad.vso
+Loaded pixel shader: skyOutput.pso
+Loaded pixel shader: cookieOutput.pso
+initShaders done
+initScene done
+Num alphas of 512x512: 1
+Num alphas of 1024x1024: 3
+Done
+Rendering UV GBuffer for Day1Scene_MWHVersion_LM0 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA1 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA2 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA3 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA4 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA5 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA6 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA7 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA8 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA9 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA10 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA11 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Rendering UV GBuffer for Day1Scene_MWHVersion_LMA12 179
+RGBA32F...RGBA8...RGBA8_SRGB...RGBA16F...states...
+Rendering UV normal...
+Rendering faceted UV normal...
+Rendering UV pos...
+Rendering smooth UV pos...
+Done
+Done
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA1.lz4" 2 0 1 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA2.lz4" 2 0 2 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LM0.lz4" 2 0 0 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA3.lz4" 2 0 3 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA4.lz4" 2 0 4 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA5.lz4" 2 0 5 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA6.lz4" 2 0 6 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA7.lz4" 2 0 7 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA8.lz4" 2 0 8 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA9.lz4" 2 0 9 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA10.lz4" 2 0 10 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA12.lz4" 2 0 12 0
+Running ftraceRTX fixpos12 "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "uvpos_Day1Scene_MWHVersion_LMA11.lz4" 2 0 11 0
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_1" 12 0 1 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1" 4 0 1 comp_1.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_2" 12 0 2 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2" 4 0 2 comp_2.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_0" 12 0 0 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0" 4 0 0 comp_0.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_3" 12 0 3 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3" 4 0 3 comp_3.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_4" 12 0 4 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4" 4 0 4 comp_4.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_5" 12 0 5 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5" 4 0 5 comp_5.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_6" 12 0 6 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6" 4 0 6 comp_6.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_7" 12 0 7 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7" 4 0 7 comp_7.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_8" 12 0 8 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8" 4 0 8 comp_8.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_9" 12 0 9 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9" 4 0 9 comp_9.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_10" 12 0 10 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10" 4 0 10 comp_10.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_12" 12 0 12 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12" 4 0 12 comp_12.bin
+Running ftraceRTX sun "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "light_1_11" 12 0 11 direct0.bin
+Running ftraceRTX addmul "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11" 4 0 11 comp_11.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1_diffuse" 4 16 1 "gi_Day1Scene_MWHVersion_LMA10.bin" "Day1Scene_MWHVersion_LMA1_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2_diffuse" 4 16 2 "gi_Day1Scene_MWHVersion_LMA20.bin" "Day1Scene_MWHVersion_LMA2_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0_diffuse" 4 16 0 "gi_Day1Scene_MWHVersion_LM00.bin" "Day1Scene_MWHVersion_LM0_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3_diffuse" 4 16 3 "gi_Day1Scene_MWHVersion_LMA30.bin" "Day1Scene_MWHVersion_LMA3_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4_diffuse" 4 16 4 "gi_Day1Scene_MWHVersion_LMA40.bin" "Day1Scene_MWHVersion_LMA4_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5_diffuse" 4 16 5 "gi_Day1Scene_MWHVersion_LMA50.bin" "Day1Scene_MWHVersion_LMA5_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6_diffuse" 4 16 6 "gi_Day1Scene_MWHVersion_LMA60.bin" "Day1Scene_MWHVersion_LMA6_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7_diffuse" 4 16 7 "gi_Day1Scene_MWHVersion_LMA70.bin" "Day1Scene_MWHVersion_LMA7_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8_diffuse" 4 16 8 "gi_Day1Scene_MWHVersion_LMA80.bin" "Day1Scene_MWHVersion_LMA8_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9_diffuse" 4 16 9 "gi_Day1Scene_MWHVersion_LMA90.bin" "Day1Scene_MWHVersion_LMA9_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10_diffuse" 4 16 10 "gi_Day1Scene_MWHVersion_LMA100.bin" "Day1Scene_MWHVersion_LMA10_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12_diffuse" 4 16 12 "gi_Day1Scene_MWHVersion_LMA120.bin" "Day1Scene_MWHVersion_LMA12_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11_diffuse" 4 16 11 "gi_Day1Scene_MWHVersion_LMA110.bin" "Day1Scene_MWHVersion_LMA11_diffuse0_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1_final" 20 16 1 "gi_Day1Scene_MWHVersion_LMA11.bin" "Day1Scene_MWHVersion_LMA1_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2_final" 20 16 2 "gi_Day1Scene_MWHVersion_LMA21.bin" "Day1Scene_MWHVersion_LMA2_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0_final" 20 16 0 "gi_Day1Scene_MWHVersion_LM01.bin" "Day1Scene_MWHVersion_LM0_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3_final" 20 16 3 "gi_Day1Scene_MWHVersion_LMA31.bin" "Day1Scene_MWHVersion_LMA3_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4_final" 20 16 4 "gi_Day1Scene_MWHVersion_LMA41.bin" "Day1Scene_MWHVersion_LMA4_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5_final" 20 16 5 "gi_Day1Scene_MWHVersion_LMA51.bin" "Day1Scene_MWHVersion_LMA5_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6_final" 20 16 6 "gi_Day1Scene_MWHVersion_LMA61.bin" "Day1Scene_MWHVersion_LMA6_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7_final" 20 16 7 "gi_Day1Scene_MWHVersion_LMA71.bin" "Day1Scene_MWHVersion_LMA7_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8_final" 20 16 8 "gi_Day1Scene_MWHVersion_LMA81.bin" "Day1Scene_MWHVersion_LMA8_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9_final" 20 16 9 "gi_Day1Scene_MWHVersion_LMA91.bin" "Day1Scene_MWHVersion_LMA9_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10_final" 20 16 10 "gi_Day1Scene_MWHVersion_LMA101.bin" "Day1Scene_MWHVersion_LMA10_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12_final" 20 16 12 "gi_Day1Scene_MWHVersion_LMA121.bin" "Day1Scene_MWHVersion_LMA12_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX texgi "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11_final" 20 16 11 "gi_Day1Scene_MWHVersion_LMA111.bin" "Day1Scene_MWHVersion_LMA11_lights_HDR.lz4" vbTraceTex.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA1_final_HDR.lz4" 4 0 1 comp_indirect1.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA2_final_HDR.lz4" 4 0 2 comp_indirect2.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LM0_final_HDR.lz4" 4 0 0 comp_indirect0.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA3_final_HDR.lz4" 4 0 3 comp_indirect3.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA4_final_HDR.lz4" 4 0 4 comp_indirect4.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA5_final_HDR.lz4" 4 0 5 comp_indirect5.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA6_final_HDR.lz4" 4 0 6 comp_indirect6.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA7_final_HDR.lz4" 4 0 7 comp_indirect7.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA8_final_HDR.lz4" 4 0 8 comp_indirect8.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA9_final_HDR.lz4" 4 0 9 comp_indirect9.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA10_final_HDR.lz4" 4 0 10 comp_indirect10.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA12_final_HDR.lz4" 4 0 12 comp_indirect12.bin
+Running ftraceRTX add "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "Day1Scene_MWHVersion_LMA11_final_HDR.lz4" 4 0 11 comp_indirect11.bin
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "1" "Day1Scene_MWHVersion_LMA1_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "2" "Day1Scene_MWHVersion_LMA2_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "0" "Day1Scene_MWHVersion_LM0_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "3" "Day1Scene_MWHVersion_LMA3_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "4" "Day1Scene_MWHVersion_LMA4_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "5" "Day1Scene_MWHVersion_LMA5_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "6" "Day1Scene_MWHVersion_LMA6_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "7" "Day1Scene_MWHVersion_LMA7_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "8" "Day1Scene_MWHVersion_LMA8_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "9" "Day1Scene_MWHVersion_LMA9_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "10" "Day1Scene_MWHVersion_LMA10_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "12" "Day1Scene_MWHVersion_LMA12_final_HDR.lz4"
+Running seamfixer "C:\Users\ANOOJV~1\AppData\Local\Temp\frender" "11" "Day1Scene_MWHVersion_LMA11_final_HDR.lz4"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_1_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_1_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA1_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_1.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_2_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_2_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA2_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_2.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_0_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_0_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LM0_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_0.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_3_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_3_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA3_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_3.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_4_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_4_Mask.lz4" 2048 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA4_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_4.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_5_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_5_Mask.lz4" 512 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA5_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_5.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_6_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_6_Mask.lz4" 512 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA6_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_6.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_7_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_7_Mask.lz4" 256 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA7_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_7.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_8_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_8_Mask.lz4" 256 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA8_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_8.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_9_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_9_Mask.lz4" 64 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA9_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_9.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_10_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_10_Mask.lz4" 512 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA10_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_10.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_12_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_12_Mask.lz4" 64 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA12_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_12.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running denoiserOIDN m "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_11_Mask.lz4" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/light_1_11_Mask.lz4" 256 0
+Running combineMasks "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA11_mask.tga" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/masks_11.bin" "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/"
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA1_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA1_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA2_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA2_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LM0_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LM0_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA3_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA3_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA4_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA4_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA5_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA5_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA6_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA6_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA7_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA7_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA8_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA8_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA9_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA9_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA10_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA10_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA12_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA12_final.hdr" 1024
+Running halffloat2hdr "C:\Users\ANOOJV~1\AppData\Local\Temp\frender/Day1Scene_MWHVersion_LMA11_final_HDR.lz4" "C:/Users/AnoojVadodkar/Perforce/vadodkar_desktop_courier/CTIN_594/20233-20241/CourierDragonsWithin/MFA-CDW/Assets/BakeryLightmaps/Day1Scene_MWHVersion_LMA11_final.hdr" 1024
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
+Compressing using quality level 127
