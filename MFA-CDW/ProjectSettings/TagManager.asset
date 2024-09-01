@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CinemachineTarget
+  - AnimationToFollow
+  - TrackedLimb
+  - Breath Ring
+  - Obstacle
+  - Belief
+  - Bullet
+  - Snare
+  - ObstacleBreakable
+  - FreeingBelief
+  - AI
+  - Water
+  - Shield
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Light
+  - Obstacle
+  - Mask
+  - BehindMask
+  - Black
+  - VistaText
+  - PlayerLayer
+  - Terrain
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Trail
+    uniqueID: 1277346661
+    locked: 0
