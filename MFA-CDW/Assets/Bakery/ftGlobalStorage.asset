@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c789d55c4f1cff34799abba03737e8f7, type: 3}
+  m_Name: ftGlobalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList: []
+  modifiedAssetPaddingHash: 
+  modifiedMeshList: []
+  modifiedMeshPaddingList: 
+  modifiedAssets: []
+  assetList:
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_S.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Structure_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Stand--Idle.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Jump--InAir.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Ground_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Run_N_Land.anim.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx
+  - Assets/ExternalAssets/StarterAssets/Environment/Art/Models/Wall_Mesh.fbx
+  - Assets/CartoonGrass/Models/Flower_02.fbx
+  - Assets/CartoonGrass/Models/Grass_04-2.fbx
+  - Assets/CartoonGrass/Models/Grass_06-2.fbx
+  - Assets/CartoonGrass/Models/Grass_08-1.fbx
+  - Assets/CartoonGrass/Models/Plant_02.fbx
+  - Assets/CartoonGrass/Models/Grass_07-1.fbx
+  - Assets/CartoonGrass/Models/Rock_02.fbx
+  - Assets/CartoonGrass/Models/Plant_13.fbx
+  - Assets/CartoonGrass/Models/Flower_05.fbx
+  - Assets/CartoonGrass/Models/Flower_04.fbx
+  - Assets/CartoonGrass/Models/Plant_12.fbx
+  - Assets/CartoonGrass/Models/Grass_08-2.fbx
+  - Assets/CartoonGrass/Models/Plant_10.fbx
+  - Assets/CartoonGrass/Models/Grass_04-1.fbx
+  - Assets/CartoonGrass/Models/Grass_05-2.fbx
+  - Assets/CartoonGrass/Models/Plant_11.fbx
+  - Assets/CartoonGrass/Models/Flower_06.fbx
+  - Assets/CartoonGrass/Models/Grass_03.fbx
+  - Assets/CartoonGrass/Models/Plant_04.fbx
+  - Assets/CartoonGrass/Models/Plant_06.fbx
+  - Assets/CartoonGrass/Models/Rock_01.fbx
+  - Assets/CartoonGrass/Models/Grass_02.fbx
+  - Assets/CartoonGrass/Models/Grass_06-1.fbx
+  - Assets/CartoonGrass/Models/Plant_07.fbx
+  - Assets/CartoonGrass/Models/Grass_07-2.fbx
+  - Assets/CartoonGrass/Models/Grass_05-1.fbx
+  - Assets/CartoonGrass/Models/Plant_03.fbx
+  - Assets/CartoonGrass/Models/Flower_03.fbx
+  - Assets/CartoonGrass/Models/Grass_01.fbx
+  - Assets/CartoonGrass/Models/Flower_01.fbx
+  - Assets/CartoonGrass/Models/Plant_09.fbx
+  - Assets/CartoonGrass/Models/Plant_01.fbx
+  - Assets/CartoonGrass/Models/Plant_08.fbx
+  - Assets/CartoonGrass/Models/Plant_05.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_03.fbx
+  - Assets/Art/Prefabs/Calla Lillies/callaLily_SP_lopoly.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/X Bot.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/happy hand gesture.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/angry gesture.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/look away gesture.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/hard head nod.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/weight shift.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/lengthy head nod.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/dismissing gesture.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/thoughtful head shake.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/head nod yes.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/annoyed head shake.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/sarcastic head nod.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/being cocky.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/acknowledging.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/shaking head no.fbx
+  - Assets/Art/Animations/Gestures Pack Basic/relieved sigh.fbx
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/Eggs/Models/PolyArt
+    Egg.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka GetHit.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Trot.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Fly Root.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka WalkBack.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Model/Unka.FBX
+  - Assets/Art/Models/Bikes/bikeChase_latest.fbx
+  - Assets/Art/Animations/Male Laying Side Pose.fbx
+  - Assets/Art/Animations/Laying Idle.fbx
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Model/Unka Poly Art 4x4.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Model/Unka Toon.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/Eggs/Models/Realistic
+    Egg.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Death.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka GetHitOpp.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Model/Unka Poly Art (Legacy).FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Attack.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Model/Unka Poly Art.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Fly InPlace.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Sleep.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Dodge.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Fire Mask.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Death Opp.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Swim Root.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Idle Attack Mode.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Walk.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Run.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Fly Attack Melee Mask.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Swim InPlace.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Idle.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Turn.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/Eggs/Models/Toon
+    Egg.FBX
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Animations/Unka Jump.FBX
+  - Assets/ExternalAssets/CartoonGrass/Models/Rock_02.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_08.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_13.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_09.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_06.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_04.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_10.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_07.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_05.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_11.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Rock_01.fbx
+  - Assets/ExternalAssets/CartoonGrass/Models/Plant_12.fbx
+  - Assets/Art/Models/Chase/ChaseTestModel_03.fbx
+  - Assets/Art/Models/Chase/Chase_Updated_1.fbx
+  - Assets/Art/Models/Dragon/Dragon_CDW_New_sculpt_model.fbx
+  - Assets/ExternalAssets/Malbers Animations/Malbers Animations Dragon/Dragons/4
+    - Unka the Dragon/Model/Dragon_CDW_New_sculpt_model.fbx
+  - Assets/Low Poly Bird Seagull/Character/LowPolySeagull.fbx
+  - Assets/Art/Models/Dragon/Courier_Dragon_UV_Checked.fbx
+  - Assets/Art/Lighting/Leo_Char.fbx
+  - Assets/Art/Models/Cave/cave_latest_textured.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/MtbBiker3.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/Stunt Object.004.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree004_V3.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone001.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone005.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Ground/Bridge.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant009.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Medium_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone008.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree004_V2.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree002_V2.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Ground/Islands/Island001.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant004.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Character/Models/Chase_Rig.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_02A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree003_V2.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant005.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant001.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree001_V2.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/TrialBike.fbx
+  - Assets/Art/Models/Cave/cave_base_mesh.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/Stunt Object.001.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant002_V1.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree005_V2.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree001_V1.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/Stunt Object.005.fbx
+  - Assets/Art/Models/Dragon/OLD_Dragon_CDW_New_sculpt_model.fbx
+  - Assets/Art/Models/Dragon/Courier_Dragon_Amended.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Ground/Islands/Island002.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone003.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/Stunt Object.002.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/PennyFarthing
+    Bicycle.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/MtbBiker2.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Downhill Bicycle.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Ground/Mountain.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/BicycleModel.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant003_V2.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone007.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom006.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Birch_Tree_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Fatbike.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_04A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom001.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/Stunt Object.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree005_V1.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree004_V1.fbx
+  - Assets/Art/Models/Bikes/bike_v2.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/CrashDummy.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree004_V6.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone009.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant006.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree002_V1.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_05A_MeshCollider.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/MtbBiker.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom004.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Birch_Tree_02A_MeshCollider.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Tricycle.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Tree_Fallen_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree004_V4.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone002.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_06A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone012.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Bmx.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant002_V3.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Large_03A_MeshCollider.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Scooter.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom003.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Mountain Bike.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree003_V1.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant002_V2.fbx
+  - Assets/ExternalAssets/StarterAssets/ThirdPersonController/Scenes/Playground/Chase_Rig.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone004.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Offroad Bicycle.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone006.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/XYZ Function.002.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant008.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone010.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Prototyping/Stunt Object.003.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Tree_Log_03A_MeshCollider.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Swing_Seat_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom007.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Table_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Rock_Medium_02A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Tree004_V5.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Pavilion_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant003_V1.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Stones/Stone011.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Wooden_Swing_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Plant007.fbx
+  - Assets/ExternalAssets/BikeAssets/Simple Bicycle Physics/Models/Cyclist.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom002.fbx
+  - Assets/ExternalAssets/Toon Fantasy Nature/Models/Colliders/TFF_Tree_Broken_01A_MeshCollider.fbx
+  - Assets/ExternalAssets/Forest Pack/Models/Plants/Mushroom005.fbx
+  - Assets/Art/Models/Dragon/Courier_Dragon_Latest.fbx
+  - Assets/Art/Models/Cave/Ocean_Rocks.fbx
+  - Assets/Art/Models/Chase/Chase_FaceIdle1.fbx
+  - Assets/Art/Models/Chase/Chase_Model.fbx
+  - Assets/Art/Models/Conversation_props/fire_pit_model.fbx
+  - Assets/Art/Models/Conversation_props/beer_cans_props.fbx
+  - Assets/Art/Models/Conversation_props/tree_Stump_model.fbx
+  - Assets/Art/Models/Conversation_props/painted_sign_model.fbx
+  - Assets/Art/Models/Conversation_props/beerCan.fbx
+  - Assets/Art/Textures/tex_paintedSign/painted_sign_model.fbx
+  - Assets/Art/Textures/tex_paintedSign/sign.fbx
+  - Assets/Art/Models/Tag/Tag_TestModel_01.fbx
+  - Assets/Art/Models/Tag/Tag_Model.fbx
+  - Assets/Art/Models/Dragon/Courier_Dragon_Latest_V2.fbx
+  - Assets/Art/Models/Conversation_props/painted_sign_model 1.fbx
+  - Assets/Art/Models/Conversation_props/sign_respect.fbx
+  - Assets/Art/Models/Conversation_props/sign_respect 1.fbx
+  - Assets/Art/Models/Conversation_props/sign_forest.fbx
+  - Assets/Art/Models/Conversation_props/sign_forest 1.fbx
+  - Assets/Art/Models/Conversation_props/sign_mountain.fbx
+  - Assets/Art/Models/Conversation_props/sign_mountain 1.fbx
+  - Assets/Art/Models/Conversation_props/sign_ocean.fbx
+  - Assets/Art/Models/Conversation_props/sign_ocean 1.fbx
+  - Assets/Art/Models/Conversation_props/sign_steepHill.fbx
+  - Assets/Art/Models/Conversation_props/sign_steepHill 1.fbx
+  - Assets/Art/Models/Conversation_props/sign_windingPath.fbx
+  - Assets/Art/Models/Tag/Stand Up.fbx
+  - Assets/Art/Models/Tag/Waving.fbx
+  uvOverlapAssetList: 000000000000000000000000000000000101000000000000000000000000000000000000000000000000000001010000000000000000000000000000010100000101000000000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000101000000000000010100000101000001010000010100000101000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000010100000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000000000000000000000000000000000000000000000000000101000000000000000000000101000000000000000000000101000001010000ffffffff000000000101000001010000010100000101000000000000ffffffff010100000101000001010000010100000101000000000000000000000101000001010000010100000000000000000000000000000101000000000000010100000101000000000000010100000000000001010000010100000000000001010000ffffffff01010000ffffffff01010000010100000101000001010000010100000000000000000000000000000101000001010000ffffffffffffffff0000000001010000ffffffff01010000ffffffff0000000000000000ffffffff000000000101000001010000ffffffff01010000010100000101000001010000010100000000000000000000010100000000000000000000000000000101000001010000ffffffffffffffff01010000ffffffffffffffff01010000ffffffff0000000001010000ffffffff010100000000000001010000ffffffff0101000000000000000000000000000000000000010100000101000001010000010100000101000001010000010100000101000000000000000000000101000001010000010100000101000001010000010100000101000001010000010100000101000001010000010100000000000000000000
+  xatlasWarningShown: 0
+  foundCompatibleSetup: 1
+  gpuName: 
+  runsNonRTX: 1
+  runsOptix5: 1
+  runsOptix6: 1
+  runsOptix7: 1
+  runsOIDN: 1
+  alwaysEnableRTX: 0
+  checkerPreviewOn: 0
+  rtSceneViewPreviewOn: 0
+  renderSettingsBounces: 5
+  renderSettingsGISamples: 16
+  renderSettingsGIBackFaceWeight: 0
+  renderSettingsTileSize: 512
+  renderSettingsPriority: 2
+  renderSettingsTexelsPerUnit: 20
+  renderSettingsForceRefresh: 1
+  renderSettingsForceRebuildGeometry: 1
+  renderSettingsPerformRendering: 1
+  renderSettingsUserRenderMode: 0
+  renderSettingsDistanceShadowmask: 0
+  renderSettingsSettingsMode: 0
+  renderSettingsFixSeams: 1
+  renderSettingsDenoise: 1
+  renderSettingsDenoise2x: 0
+  renderSettingsEncode: 1
+  renderSettingsEncodeMode: 0
+  renderSettingsOverwriteWarning: 0
+  renderSettingsAutoAtlas: 1
+  renderSettingsUnwrapUVs: 1
+  renderSettingsForceDisableUnwrapUVs: 0
+  renderSettingsMaxAutoResolution: 4096
+  renderSettingsMinAutoResolution: 16
+  renderSettingsUnloadScenes: 1
+  renderSettingsAdjustSamples: 1
+  renderSettingsGILODMode: 2
+  renderSettingsGILODModeEnabled: 0
+  renderSettingsCheckOverlaps: 0
+  renderSettingsSkipOutOfBoundsUVs: 1
+  renderSettingsHackEmissiveBoost: 1
+  renderSettingsHackIndirectBoost: 1
+  renderSettingsTempPath: 
+  renderSettingsOutPath: 
+  renderSettingsUseScenePath: 0
+  renderSettingsHackAOIntensity: 0
+  renderSettingsHackAOSamples: 16
+  renderSettingsHackAORadius: 1
+  renderSettingsShowAOSettings: 0
+  renderSettingsShowTasks: 1
+  renderSettingsShowTasks2: 0
+  renderSettingsShowPaths: 1
+  renderSettingsShowNet: 1
+  renderSettingsOcclusionProbes: 0
+  renderSettingsTexelsPerMap: 0
+  renderSettingsTexelsColor: 1
+  renderSettingsTexelsMask: 1
+  renderSettingsTexelsDir: 1
+  renderSettingsShowDirWarning: 1
+  renderSettingsRenderDirMode: 0
+  renderSettingsShowCheckerSettings: 0
+  renderSettingsSamplesWarning: 1
+  renderSettingsSuppressPopups: 0
+  renderSettingsPrefabWarning: 1
+  renderSettingsSplitByScene: 0
+  renderSettingsSplitByTag: 0
+  renderSettingsUVPaddingMax: 0
+  renderSettingsPostPacking: 1
+  renderSettingsHoleFilling: 0
+  renderSettingsBeepOnFinish: 0
+  renderSettingsExportTerrainAsHeightmap: 1
+  renderSettingsRTXMode: 0
+  renderSettingsLightProbeMode: 1
+  renderSettingsClientMode: 0
+  renderSettingsServerAddress: 127.0.0.1
+  renderSettingsUnwrapper: 0
+  renderSettingsDenoiserType: 100
+  renderSettingsExportTerrainTrees: 0
+  renderSettingsShowPerf: 1
+  renderSettingsSampleDiv: 1
+  renderSettingsAtlasPacker: 0
+  renderSettingsBatchPoints: 1
+  renderSettingsCompressVolumes: 0
+  renderSettingsRTPVExport: 1
+  renderSettingsRTPVSceneView: 0
+  renderSettingsRTPVHDR: 0
+  renderSettingsRTPVWidth: 640
+  renderSettingsRTPVHeight: 360
+  tagOverrides: []
+  modifiedMeshPaddingArray: 
+  modifiedMeshUnwrapperArray: 
+  texSettingsKey: []
+  texSettingsVal: []
