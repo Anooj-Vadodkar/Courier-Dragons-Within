@@ -369,7 +369,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3058794636550215334}
-  m_RootOrder: 19
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &692627147647151524
 GameObject:
@@ -1327,8 +1327,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7621446162383705962}
-  m_RootOrder: 2
+  m_Father: {fileID: 3058794636550215334}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 50.211, y: 157.752, z: 88.944}
 --- !u!108 &2184174265817732840
 Light:
@@ -1517,8 +1517,11 @@ Transform:
   - {fileID: 692627147927073726}
   - {fileID: 692627147647151523}
   - {fileID: 692627148936427013}
+  - {fileID: 8535460702245900573}
+  - {fileID: 3944670029883323516}
+  - {fileID: 21280032057209866}
+  - {fileID: 7026563509867872117}
   - {fileID: 284152537096578355}
-  - {fileID: 7621446162383705962}
   - {fileID: 988203223214310782}
   - {fileID: 5608112804373741858}
   - {fileID: 7650877768272257848}
@@ -1741,7 +1744,6 @@ MonoBehaviour:
   rb: {fileID: 0}
   fWheelRb: {fileID: 0}
   rWheelRb: {fileID: 0}
-  force: 0
   wheelFrictionSettings:
     fPhysicMaterial: {fileID: 13400000, guid: 585d95f742f5dfa4bb2e1584712c112d, type: 2}
     rPhysicMaterial: {fileID: 13400000, guid: d77054035266f8149ab7f17ab9995576, type: 2}
@@ -1906,7 +1908,7 @@ Transform:
   - {fileID: 6059801108464614600}
   - {fileID: 7995319547895709633}
   m_Father: {fileID: 3058794636550215334}
-  m_RootOrder: 18
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: -46.826, z: 0}
 --- !u!1 &3266599328595516720
 GameObject:
@@ -1938,8 +1940,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7621446162383705962}
-  m_RootOrder: 1
+  m_Father: {fileID: 3058794636550215334}
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 59.64, y: 116.803, z: 65.189}
 --- !u!108 &637044203985907427
 Light:
@@ -3423,8 +3425,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7621446162383705962}
-  m_RootOrder: 3
+  m_Father: {fileID: 3058794636550215334}
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 35.556, y: 99.787, z: 90.323}
 --- !u!108 &8467648816599403511
 Light:
@@ -3821,41 +3823,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &9028876162597215603
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7621446162383705962}
-  m_Layer: 0
-  m_Name: BikeLights
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &7621446162383705962
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9028876162597215603}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8535460702245900573}
-  - {fileID: 3944670029883323516}
-  - {fileID: 21280032057209866}
-  - {fileID: 7026563509867872117}
-  m_Father: {fileID: 3058794636550215334}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9112107958218348345
 GameObject:
   m_ObjectHideFlags: 0
@@ -3889,7 +3856,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3058794636550215334}
-  m_RootOrder: 20
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &1606945710244609523
 MeshFilter:
@@ -3998,8 +3965,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7621446162383705962}
-  m_RootOrder: 0
+  m_Father: {fileID: 3058794636550215334}
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 47.376, y: -51.853, z: 92.193}
 --- !u!108 &755578625230707360
 Light:
@@ -4239,7 +4206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a80fd4871a591c247883dc1df9aed8c5, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a80fd4871a591c247883dc1df9aed8c5, type: 3}
       propertyPath: m_LocalScale.x
@@ -7791,47 +7758,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a80fd4871a591c247883dc1df9aed8c5, type: 3}
   m_PrefabInstance: {fileID: 322915876600251096}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &255226627584523812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628907003847819145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbfe164960cf86e4a86c95d018b79092, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0
-  isAirborne: 0
-  bikeStub: []
-  walkStub: []
-  externalAI: {fileID: 0}
-  secondExternalAI: {fileID: 0}
-  bikeDismount: {fileID: 0}
-  bikeMount: {fileID: 0}
-  thirdPersonCamera: {fileID: 594748009574581541}
-  firstGate: {fileID: 0}
-  bikeLights: {fileID: 9028876162597215603}
-  parkingWaypoint: {fileID: 0}
-  subtitleIndex: 0
-  hipIK: {fileID: 5838174057340476287}
-  chestIK: {fileID: 4983117521474196194}
-  leftFootIK: {fileID: 8155822979019190953}
-  leftFootIdleIK: {fileID: 6828504844138188611}
-  rightFootIK: {fileID: 1725305663226737303}
-  headIK: {fileID: 8398684656763361570}
-  chaseRig: {fileID: 4483526338099771914}
-  cyclist: {fileID: 4483526338099771914}
-  externalCharacter: {fileID: 0}
-  externalCharacterCam: {fileID: 0}
-  chaseModel: {fileID: 6129874007229939529}
-  demountPoint: {fileID: 653785818553936214}
-  tagAI: {fileID: 0}
-  promptCanvas: {fileID: 9112107958218348345}
-  promptText: {fileID: 0}
-  canMount: 1
 --- !u!114 &6316914959730226400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7868,6 +7794,44 @@ MonoBehaviour:
     chestCurveIn: 1000
     impactIntensity: 1
     impactDamping: 0.25
+--- !u!114 &255226627584523812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628907003847819145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbfe164960cf86e4a86c95d018b79092, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  isAirborne: 0
+  bikeStub: []
+  walkStub: []
+  externalAI: {fileID: 0}
+  secondExternalAI: {fileID: 0}
+  bikeMount: {fileID: 0}
+  explorePrompt: {fileID: 0}
+  thirdPersonCamera: {fileID: 594748009574581541}
+  subtitleIndex: 0
+  hipIK: {fileID: 5838174057340476287}
+  chestIK: {fileID: 4983117521474196194}
+  leftFootIK: {fileID: 8155822979019190953}
+  leftFootIdleIK: {fileID: 6828504844138188611}
+  rightFootIK: {fileID: 1725305663226737303}
+  headIK: {fileID: 8398684656763361570}
+  chaseRig: {fileID: 4483526338099771914}
+  cyclist: {fileID: 4483526338099771914}
+  externalCharacter: {fileID: 0}
+  externalCharacterCam: {fileID: 0}
+  chaseModel: {fileID: 6129874007229939529}
+  demountPoint: {fileID: 653785818553936214}
+  tagAI: {fileID: 0}
+  promptCanvas: {fileID: 9112107958218348345}
+  promptText: {fileID: 0}
+  canMount: 1
 --- !u!114 &8956540972709419218
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,8 @@ public class DemoEndSceneController : MonoBehaviour
     [SerializeField] private GameObject reflect;
     [SerializeField] private ChangeScript script;
     [SerializeField] private GameObject dragon;
+    [SerializeField] private ExternalTagController tagController;
+    [SerializeField] private Transform gate;
     public PlayableDirector director;
 
     private void Start()
@@ -24,12 +26,16 @@ public class DemoEndSceneController : MonoBehaviour
         {
             // show UI for talk to tag
 
-            if(_inputManager.GetDismountInputPressed())
+            if(_inputManager.GetDismountInputPressed()/*  && gate != null */)
             {
-                dragon.SetActive(true);
-                script.Unpause();
-                reflect.SetActive(false);
-                director.Play();
+                if(gate != null) {
+                    tagController.SetDestination(gate.position);
+                    
+                    /* dragon.SetActive(true);
+                    script.Unpause();
+                    reflect.SetActive(false);
+                    director.Play(); */
+                }
             }
         }
     }
@@ -38,6 +44,7 @@ public class DemoEndSceneController : MonoBehaviour
     {
         if (col.tag == "Player")
         {
+            Debug.Log("Enter Demo End Zone");
             reflect.SetActive(true);
             playerInTriggerZone = true;
         }

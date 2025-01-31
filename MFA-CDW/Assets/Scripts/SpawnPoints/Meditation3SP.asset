@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 531fe405c7e9ca246baabcb862bf5c1a, type: 3}
   m_Name: Meditation3SP
   m_EditorClassIdentifier: 
-  playerPoint: {x: 0, y: 0, z: 0}
+  playerPoint: {x: 348.41, y: 15.586, z: 1004.08}
   tagPoint: {x: 0, y: 0, z: 0}
   bikePoint: {x: 0, y: 0, z: 0}
+  timeofDay: 3

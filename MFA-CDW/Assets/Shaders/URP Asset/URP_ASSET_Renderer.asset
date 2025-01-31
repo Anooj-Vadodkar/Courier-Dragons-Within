@@ -192,7 +192,7 @@ MonoBehaviour:
   - {fileID: -2800983280718515190}
   - {fileID: 8633967629684442995}
   m_RendererFeatureMap: ec9ca168b4d0bffd10ab86ee9bba1f1fdb31a3a2447c4cf345cd86ace2fec081c1afe0500b3f7e8d0af4f6e28be820d973079081d003d277
-  m_UseNativeRenderPass: 0
+  m_UseNativeRenderPass: 1
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -244,7 +244,7 @@ MonoBehaviour:
   settings:
     outlineMaterial: {fileID: 2100000, guid: a385545d0b3d72b4cb0f3d22b96975c0, type: 2}
     scale: 1
-    depthThreshold: 13
+    depthThreshold: 20
     normalThreshold: 5
     depthNormalThreshold: 2
     depthNormalThresholdScale: 0

@@ -76,6 +76,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "RightPedal",
+                    "type": "Button",
+                    "id": "82b381dd-1464-4710-b676-10a092971c0a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftPedal",
+                    "type": "Button",
+                    "id": "68ea8f88-9b5a-423e-ae00-ae7f8ed65191",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -384,6 +402,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Breath",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ca41e166-7e65-4ba3-aab0-9cbb3ed52af8",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "RightPedal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0198dcf6-d2ac-4131-b512-b20f705d1f96",
+                    "path": "<Gamepad>/leftTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "LeftPedal",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

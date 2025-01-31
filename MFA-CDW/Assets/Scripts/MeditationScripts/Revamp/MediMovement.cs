@@ -189,7 +189,7 @@ public class MediMovement : MonoBehaviour
                 }
             }
 
-            Debug.Log("Current speed: " + speed);
+            // Debug.Log("Current speed: " + speed);
 
             // Moving
             transform.Translate(currentDirection * speed * Time.deltaTime);

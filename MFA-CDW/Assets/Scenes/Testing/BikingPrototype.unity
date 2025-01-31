@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -316,8 +316,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 371216832}
-  m_LocalRotation: {x: 0.22415604, y: 6.1993806e-11, z: -8.174563e-11, w: 0.9745532}
-  m_LocalPosition: {x: 0, y: 2.0000005, z: 2.5}
+  m_LocalRotation: {x: -0.041558683, y: -0.000000033244504, z: -0.0000000013827927, w: 0.9991361}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -535,7 +535,7 @@ Transform:
   - {fileID: 2047865378}
   - {fileID: 609770942}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &514335356
 GameObject:
@@ -691,7 +691,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9153381202734655220, guid: 6d9bbf2424471c948894dfd73c3c5cf0, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9153381202734655220, guid: 6d9bbf2424471c948894dfd73c3c5cf0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1815,7 +1815,7 @@ Transform:
   - {fileID: 944178437}
   - {fileID: 799389168}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &944178436
 GameObject:
@@ -1998,7 +1998,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &984102006
 MonoBehaviour:
@@ -2343,7 +2343,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1089883732
 MonoBehaviour:
@@ -2997,7 +2997,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459698550}
-  m_LocalRotation: {x: -0.015169048, y: -7.317089e-10, z: -1.1100605e-11, w: 0.99988496}
+  m_LocalRotation: {x: -0.015169046, y: -0.000000001799181, z: -2.7294998e-11, w: 0.99988496}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3296,11 +3296,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   isAirborne: 0
-  convoStub: {fileID: 0}
+  bikeStub: []
+  walkStub: []
   externalAI: {fileID: 0}
   secondExternalAI: {fileID: 0}
+  bikeDismount: {fileID: 0}
   bikeMount: {fileID: 0}
-  explorePrompt: {fileID: 0}
+  thirdPersonCamera: {fileID: 0}
+  firstGate: {fileID: 0}
+  parkingWaypoint: {fileID: 0}
+  subtitleIndex: 0
   hipIK: {fileID: 838368137}
   chestIK: {fileID: 165262236}
   leftFootIK: {fileID: 1958453040}
@@ -3311,8 +3316,8 @@ MonoBehaviour:
   cyclist: {fileID: 26709470}
   externalCharacter: {fileID: 1882829492}
   externalCharacterCam: {fileID: 713371074}
+  chaseModel: {fileID: 0}
   demountPoint: {fileID: 0}
-  conversation: {fileID: 0}
   tagAI: {fileID: 0}
   promptCanvas: {fileID: 0}
   promptText: {fileID: 0}
@@ -3518,7 +3523,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1935273659
 MonoBehaviour:
@@ -3969,7 +3974,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2074963846
 MonoBehaviour:
@@ -5339,9 +5344,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: AICompanion
       objectReference: {fileID: 0}
+    - target: {fileID: 2277733888395602963, guid: cca45d6d27cc286408cefa5c91e99d9f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2277733888395602972, guid: cca45d6d27cc286408cefa5c91e99d9f, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2277733888395602972, guid: cca45d6d27cc286408cefa5c91e99d9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5722,7 +5731,7 @@ Transform:
   - {fileID: 8583147579545286216}
   - {fileID: 543450652510986643}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2617065421291016504
 MonoBehaviour:
@@ -5762,13 +5771,16 @@ MonoBehaviour:
   fadeInWaitTime: 2
   director: {fileID: 0}
   fadeInScreen: {fileID: 0}
+  convoNav: {fileID: 0}
   dislodged: 0
   impactThreshold: 7
   ragdollPrefab: {fileID: 5099168579836883629, guid: fdb6fca64d21f464aa1cfd11143c01b1, type: 3}
   instantiatedRagdoll: {fileID: 0}
   inactiveColliders: {fileID: 8113180039756372515}
   uiBreath: {fileID: 6316768386484813326}
-  newPosition: {x: 14405.2, y: 587.66, z: 8866.9}
+  walking2Debug: {fileID: 0}
+  cycling1debug: {fileID: 0}
+  customBikeSounds: {fileID: 0}
 --- !u!1 &2617065421291016508
 GameObject:
   m_ObjectHideFlags: 0
@@ -5929,6 +5941,7 @@ MonoBehaviour:
   rb: {fileID: 0}
   fWheelRb: {fileID: 0}
   rWheelRb: {fileID: 0}
+  force: 0
   wheelFrictionSettings:
     fPhysicMaterial: {fileID: 13400000, guid: 585d95f742f5dfa4bb2e1584712c112d, type: 2}
     rPhysicMaterial: {fileID: 13400000, guid: d77054035266f8149ab7f17ab9995576, type: 2}
@@ -10420,11 +10433,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   isAirborne: 0
-  convoStub: {fileID: 0}
+  bikeStub: []
+  walkStub: []
   externalAI: {fileID: 0}
   secondExternalAI: {fileID: 0}
+  bikeDismount: {fileID: 0}
   bikeMount: {fileID: 0}
-  explorePrompt: {fileID: 0}
+  thirdPersonCamera: {fileID: 0}
+  firstGate: {fileID: 0}
+  parkingWaypoint: {fileID: 0}
+  subtitleIndex: 0
   hipIK: {fileID: 8113180039363460966}
   chestIK: {fileID: 8113180040304540647}
   leftFootIK: {fileID: 8113180038835693380}
@@ -10435,8 +10453,8 @@ MonoBehaviour:
   cyclist: {fileID: 4720400311109689409}
   externalCharacter: {fileID: 0}
   externalCharacterCam: {fileID: 0}
+  chaseModel: {fileID: 0}
   demountPoint: {fileID: 0}
-  conversation: {fileID: 0}
   tagAI: {fileID: 0}
   promptCanvas: {fileID: 0}
   promptText: {fileID: 0}

@@ -4,6 +4,7 @@ using FMOD.Studio;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Playables;
+using SBPScripts;
 
 public class ExternalController : MonoBehaviour
 {
@@ -22,10 +23,14 @@ public class ExternalController : MonoBehaviour
     [SerializeField] private Animator animator;
     //private Rigidbody rb; OLD
     private CharacterController controller;
-
+    [SerializeField] private ExternalTagController Walking5Tag;
+    [SerializeField] private GameObject Cycling3Bike;
+    [SerializeField] private GameObject Cycling3Debug;
+    [SerializeField] private GameObject Walking5Gates;
     // Animation Hashes
     private int speedHash;
     private int inControlHash;
+    private int isTalkingHash;
 
     [Header("Movement")]
     [SerializeField]
@@ -105,7 +110,7 @@ public class ExternalController : MonoBehaviour
 
         speedHash = Animator.StringToHash("Speed");
         inControlHash = Animator.StringToHash("inControl");
-
+        isTalkingHash = Animator.StringToHash("isTalking");
         
       //  PlayerCursor.Instance.DisableCursor();
 
@@ -121,6 +126,7 @@ public class ExternalController : MonoBehaviour
         {
             this.transform.position = convoNavPosition.position;
             player.transform.position = convoNavBikePosition.position;
+            externalAI.DebugWalking3Teleport();
             //changeScriptDebug.DebugSkipDialogue();
         }
         if (Input.GetKeyDown(KeyCode.H))
@@ -230,12 +236,23 @@ public class ExternalController : MonoBehaviour
 
     public void StartCarousel()
     {
-        if(spawnPoint.GetSpawnIndex() == 1 && paused)
+        if (spawnPoint.GetSpawnIndex() == 1 && paused)
         {
             walking1Carousel.PlayCarousel();
             //dialogue.SetActive(true);
         }
-            
+        else if (spawnPoint.GetSpawnIndex() == 2)
+        {
+            Walking5Tag.gameObject.SetActive(true);
+        }
+    }
+
+    public void Sit()
+    {
+        animator.SetBool(inControlHash, false);
+        animator.Play("Sitting");
+        standing = false;
+        SitDownSound();
     }
 
     public void GetUp(){
@@ -250,6 +267,17 @@ public class ExternalController : MonoBehaviour
         StartWalkAnimation();
         // StartCoroutine(GettingUp());
         animator.SetBool(inControlHash, true);
+        Debug.Log(spawnPoint.GetSpawnIndex());
+        if(spawnPoint.GetSpawnIndex() == 2)
+        {
+            Walking5Tag.gameObject.SetActive(true);
+            Walking5Tag.SetWalking(true);
+            Walking5Gates.SetActive(true);
+            player.transform.position = Cycling3Debug.transform.position;
+            Cycling3Bike.gameObject.SetActive(true);
+            player.GetComponentInChildren<CyclistAnimController>().canMount = true;
+            
+        }
     }
 
     public void SitDownSound() {
@@ -299,6 +327,18 @@ public class ExternalController : MonoBehaviour
         paused = value;
     }
     
+    public void StartTalkAnimation()
+    {
+        Debug.Log("starting talk");
+        animator.SetBool(isTalkingHash, true);
+    }
+
+    public void StopTalkAnimation()
+    {
+        Debug.Log("stopping talk");
+        animator.SetBool(isTalkingHash, false);
+    }
+
     public void StopWalkAnimation()
     {
         animator.gameObject.GetComponent<Animator>().enabled = false;

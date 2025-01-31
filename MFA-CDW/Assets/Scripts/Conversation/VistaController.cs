@@ -17,6 +17,10 @@ public class VistaController : MonoBehaviour
     [SerializeField] private List<GameObject> finalShotCams;
     [SerializeField] private GameObject vistaDisable;
     [SerializeField] private PlayerReticle reticle;
+    [SerializeField] private VistaController consecutiveVista;
+    [SerializeField] private bool isNightSky = false;
+
+    [SerializeField] private bool debugModeOn = false;
     // [SerializeField] private LoopingAudioInstance cnavAudioLoop;
     public float _crosshairMoveSpeed;
     public float _yMaxRange;
@@ -32,6 +36,10 @@ public class VistaController : MonoBehaviour
     private void Start()
     {
         _crosshair.enabled = false;
+        if(debugModeOn)
+        {
+            Invoke("TriggerVista", 1.0f);
+        }
     }
 
     public void EnterVista(int vistaNum)
@@ -44,10 +52,7 @@ public class VistaController : MonoBehaviour
         {
             reticle.SetBreathOn();
         }
-        if(convoNav != null)
-        {
-            convoNav.Unpause();
-        }
+
         for(int i = 0; i < _vistaCams.Length; i++)
         {
             if(i == vistaNum)
@@ -58,7 +63,7 @@ public class VistaController : MonoBehaviour
                 _externalController.StopWalkAnimation();
                 if (convoNav != null && convoNav.gameObject.activeInHierarchy)
                 {
-                    convoNav.SetIndex(13);
+                    //convoNav.SetIndex(13);
                 }
             }
             else
@@ -66,6 +71,8 @@ public class VistaController : MonoBehaviour
                 _vistaCams[i].Priority = 5;
             }
         }
+        if (convoNav != null && !convoNav.gameObject.activeInHierarchy)
+            convoNav.gameObject.SetActive(true);
     }
 
     public void LeaveVista()
@@ -78,25 +85,58 @@ public class VistaController : MonoBehaviour
             _breathFilled.enabled = false;
         if(_vistaCams.Length > 0)
             _vistaCams[_currVista].Priority = 5;
+        if(finishedCamera)
         finishedCamera.SetActive(false);
         _currVista = -1;
         _completedVistas++;
         _externalController.StartWalkAnimation();
         if (convoNav != null && convoNav.gameObject.activeInHierarchy)
         {
-            convoNav.SetIndex(32);
-            convoNav.Unpause();
+            //convoNav.SetIndex(32);
+            //convoNav.Unpause();
         }
-        if (_completedVistas == _vistaCams.Length)
-        {
-            _dialogueWrapper.UnhideOptions();
-            _dialogueWrapper.SelectFirstOption();
-        }
+       // if (_completedVistas == _vistaCams.Length)
+        //{
+        //    _dialogueWrapper.UnhideOptions();
+       //     _dialogueWrapper.SelectFirstOption();
+       // }
         if(meditationGate) {
             meditationGate.SetActive(true);
         }
         if (vistaDisable != null)
             vistaDisable.SetActive(false);
     }
+
+    public void TransitionVista()
+    {
+        _crosshair.enabled = false;
+    }
+
+    public void TriggerVista()
+    {
+        if(isNightSky)
+        {
+            _vistaCams[0].GetComponent<NightSkyVistaEntranceZone>().SetFirstTimeTriggered(true);
+            EnterVista(0);
+        }
+        else
+        {
+            _vistaCams[0].GetComponent<VistaEntranceZone>().SetFirstTimeTriggered(true);
+            _vistaCams[0].GetComponent<VistaEntranceZone>().SetTextMeshRenderer(0);
+            EnterVista(0);
+        }
+    }
+
+    public void TriggerConsecutiveVista()
+    {
+        consecutiveVista.gameObject.SetActive(true);
+        consecutiveVista._vistaCams[0].GetComponent<VistaEntranceZone>().SetFirstTimeTriggered(true);
+        consecutiveVista._vistaCams[0].GetComponent<VistaEntranceZone>().SetTextMeshRenderer(0);
+        consecutiveVista.EnterVista(0);
+        
+        this.gameObject.SetActive(false);
+    }
+
+
 
 }

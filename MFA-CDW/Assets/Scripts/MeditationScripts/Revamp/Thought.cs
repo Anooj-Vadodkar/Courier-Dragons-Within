@@ -11,7 +11,6 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Rendering.UI;
 using FMODUnity;
-using Language.Lua;
 using Unity.VisualScripting;
 using System.Runtime.CompilerServices;
 using System;
@@ -96,6 +95,11 @@ public class Thought : MonoBehaviour
     [SerializeField]
     private EndMeditation endMeditation;
 
+    [SerializeField]
+    private ConfrontAtEnd endConfrontation;
+
+    [SerializeField]
+    private bool instantStop = true;
     private void Start() {
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioManager = AudioManager.Instance;
@@ -162,8 +166,13 @@ public class Thought : MonoBehaviour
                 spawner.SetSpawnerActive(false);
 
                 // Rough Exit
-                endMeditation.Exit();
-
+                if(instantStop)
+                    endMeditation.Exit();
+                if (!instantStop)
+                {
+                    endConfrontation.gameObject.SetActive(true);
+                    endConfrontation.FadeIn(0.5f);
+                }
                 // Regular Exit
                 // StartCoroutine(ExitMeditation());
                 // StartCoroutine(GrowVision(-1));
@@ -403,6 +412,11 @@ public class Thought : MonoBehaviour
 
     public float GetRadius() {
         return radius;
+    }
+
+    public void EndMeditation()
+    {
+        endMeditation.Exit();
     }
 
     public Vector3 GetCenterPoint() {

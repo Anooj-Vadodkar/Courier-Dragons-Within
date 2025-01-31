@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using PixelCrushers.DialogueSystem;
 
 
 /// <summary>
@@ -117,20 +116,20 @@ public class TopTextObserver : MonoBehaviour
 
     void OnEnable()
     {
-        Lua.RegisterFunction(nameof(IsSliderHighEnough), this, SymbolExtensions.GetMethodInfo(() => IsSliderHighEnough()));
+        //Lua.RegisterFunction(nameof(IsSliderHighEnough), this, SymbolExtensions.GetMethodInfo(() => IsSliderHighEnough()));
     }
 
     void OnDisable()
     {
         // Note: If this script is on your Dialogue Manager & the Dialogue Manager is configured
         // as Don't Destroy On Load (on by default), don't unregister Lua functions.
-        Lua.UnregisterFunction(nameof(IsSliderHighEnough)); // <-- Only if not on Dialogue Manager.
+       // Lua.UnregisterFunction(nameof(IsSliderHighEnough)); // <-- Only if not on Dialogue Manager.
     }
     public bool IsSliderHighEnough()
     {
         return _value > _breatheThreshold;
     }
-
+    /*
     private void GoToLastOption()
     {
         conversationSpawner.BreathingInstructionInactive();
@@ -144,5 +143,5 @@ public class TopTextObserver : MonoBehaviour
         DialogueWrapper._instance.RefreshTextState();
         Debug.LogError("Moved to last option");
     }
-
+    */
 }

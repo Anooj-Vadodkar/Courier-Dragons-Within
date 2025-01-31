@@ -36,6 +36,7 @@ public class ChangeScript : MonoBehaviour
     private GameObject tagBike;
     [SerializeField]
     private CyclistAnimController getOnBike;
+    [SerializeField] NewBikeController bikeController;
     [SerializeField]
     private CarouselController carousel;
     [SerializeField]
@@ -46,6 +47,8 @@ public class ChangeScript : MonoBehaviour
     private VistaEntranceZone vista;
     [SerializeField]
     private EmptyVista emptyVista;
+    [SerializeField]
+    private VistaController nextVista;
     [SerializeField]
     private Image cursor;
     [SerializeField]
@@ -163,9 +166,17 @@ public class ChangeScript : MonoBehaviour
                             paused = true;
                             break;
                         case "mount":
-                            getOnBike.canMount = true;
-                            getOnBikePrompt.canMount = true;
-                            break;
+                            if(bikeController == null) {
+                                getOnBike.canMount = true;
+                                getOnBikePrompt.canMount = true;
+                                break;
+                            } else {
+                                bikeController.SetCanMount(true);
+                                if(getOnBikePrompt != null) {
+                                    getOnBikePrompt.canMount = true;
+                                }
+                                break;
+                            }
                         case "bikecameraon":
                             bikeCamera.SetActive(true);
                             break;
@@ -189,12 +200,19 @@ public class ChangeScript : MonoBehaviour
                             tagBike.SetActive(false);
                             tagAI.gameObject.SetActive(false);
                             break;
+                        case "triggervista":
+                            nextVista.TriggerConsecutiveVista();
+                            break;
                         case "turnoff":
+                            // Stop both Chase and Tag's lips animation
+                            playerMovement.StopTalkAnimation();
                             text = "";
                             time = timeToSwitch[index];
                             subtitlesDialogue.SetText(text);
                             this.gameObject.SetActive(false);
                             break;
+                        
+
                     }
                 }
             }
@@ -208,20 +226,39 @@ public class ChangeScript : MonoBehaviour
         switch(subtitlesSpeaker.text)
         {
             case "Tag":
+                // Stop Chase lips animation, start Tag lips animation
+                playerMovement.StartTalkAnimation();
+                // Start dialogue for Tag
+                if (getOnBike != null)
+                    getOnBike.StopChaseTalking();
                 subtitlesSpeaker.color = tagSpeakerTextColor;
                 Debug.Log("COLOR CHANGED!");
                 break;
             case "Chase":
+                // Stop Tag lips animation, start Chase lips animation
+                playerMovement.StartTalkAnimation();
+                // Start dialogue for Chase
+                if(getOnBike != null)
+                    getOnBike.StartChaseTalking();
                 subtitlesSpeaker.color = chaseSpeakerTextColor;
                 Debug.Log("COLOR CHANGED!");
                 break;
             case "Chase's Dad":
+                if(getOnBike != null)
+                     getOnBike.StopChaseTalking();
                 subtitlesSpeaker.color = dadSpeakerTextColor;
                 Debug.Log("COLOR CHANGED!");
                 break;
             case "Sam":
+                if(getOnBike != null)
+                    getOnBike.StopChaseTalking();
                 subtitlesSpeaker.color = samSpeakerTextColor;
                 Debug.Log("COLOR CHANGED!");
+                break;
+            case "":
+                playerMovement.StopTalkAnimation();
+                if(getOnBike != null)
+                    getOnBike.StopChaseTalking();
                 break;
         }
     }

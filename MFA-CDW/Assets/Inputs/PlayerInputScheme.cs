@@ -98,6 +98,24 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""RightPedal"",
+                    ""type"": ""Button"",
+                    ""id"": ""82b381dd-1464-4710-b676-10a092971c0a"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""LeftPedal"",
+                    ""type"": ""Button"",
+                    ""id"": ""68ea8f88-9b5a-423e-ae00-ae7f8ed65191"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -406,6 +424,28 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Breath"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ca41e166-7e65-4ba3-aab0-9cbb3ed52af8"",
+                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""RightPedal"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0198dcf6-d2ac-4131-b512-b20f705d1f96"",
+                    ""path"": ""<Gamepad>/leftTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""LeftPedal"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -793,6 +833,8 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
         m_Player_Breath = m_Player.FindAction("Breath", throwIfNotFound: true);
         m_Player_Dismount = m_Player.FindAction("Dismount", throwIfNotFound: true);
         m_Player_Click = m_Player.FindAction("Click", throwIfNotFound: true);
+        m_Player_RightPedal = m_Player.FindAction("RightPedal", throwIfNotFound: true);
+        m_Player_LeftPedal = m_Player.FindAction("LeftPedal", throwIfNotFound: true);
         // Debug
         m_Debug = asset.FindActionMap("Debug", throwIfNotFound: true);
         m_Debug_Reload = m_Debug.FindAction("Reload", throwIfNotFound: true);
@@ -877,6 +919,8 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Breath;
     private readonly InputAction m_Player_Dismount;
     private readonly InputAction m_Player_Click;
+    private readonly InputAction m_Player_RightPedal;
+    private readonly InputAction m_Player_LeftPedal;
     public struct PlayerActions
     {
         private @PlayerInputScheme m_Wrapper;
@@ -889,6 +933,8 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
         public InputAction @Breath => m_Wrapper.m_Player_Breath;
         public InputAction @Dismount => m_Wrapper.m_Player_Dismount;
         public InputAction @Click => m_Wrapper.m_Player_Click;
+        public InputAction @RightPedal => m_Wrapper.m_Player_RightPedal;
+        public InputAction @LeftPedal => m_Wrapper.m_Player_LeftPedal;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -922,6 +968,12 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                 @Click.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnClick;
                 @Click.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnClick;
                 @Click.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnClick;
+                @RightPedal.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightPedal;
+                @RightPedal.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightPedal;
+                @RightPedal.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnRightPedal;
+                @LeftPedal.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeftPedal;
+                @LeftPedal.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeftPedal;
+                @LeftPedal.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnLeftPedal;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -950,6 +1002,12 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
                 @Click.started += instance.OnClick;
                 @Click.performed += instance.OnClick;
                 @Click.canceled += instance.OnClick;
+                @RightPedal.started += instance.OnRightPedal;
+                @RightPedal.performed += instance.OnRightPedal;
+                @RightPedal.canceled += instance.OnRightPedal;
+                @LeftPedal.started += instance.OnLeftPedal;
+                @LeftPedal.performed += instance.OnLeftPedal;
+                @LeftPedal.canceled += instance.OnLeftPedal;
             }
         }
     }
@@ -1154,6 +1212,8 @@ public partial class @PlayerInputScheme : IInputActionCollection2, IDisposable
         void OnBreath(InputAction.CallbackContext context);
         void OnDismount(InputAction.CallbackContext context);
         void OnClick(InputAction.CallbackContext context);
+        void OnRightPedal(InputAction.CallbackContext context);
+        void OnLeftPedal(InputAction.CallbackContext context);
     }
     public interface IDebugActions
     {

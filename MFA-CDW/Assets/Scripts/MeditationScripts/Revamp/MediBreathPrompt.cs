@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using FMODUnity;
 using FMOD.Studio;
+using UnityEngine.Events;
 
 public class MediBreathPrompt : MonoBehaviour
 {
@@ -29,6 +30,9 @@ public class MediBreathPrompt : MonoBehaviour
     private MediMovement player;
 
     [SerializeField]
+    float timeToStart = 1;
+
+    [SerializeField]
     private GameObject sphereFov;
     [SerializeField]
     private float scaleIncSpeed = 1.0f;
@@ -36,7 +40,10 @@ public class MediBreathPrompt : MonoBehaviour
     [SerializeField] private string startingText;
 
     [SerializeField] private EventReference musicEvent;
-
+    [SerializeField] private bool promptAtStart = true;
+    [SerializeField] private UnityEvent beforePromptEvent;
+    [SerializeField] private UnityEvent afterPromptEvent;
+ 
     private float startingScale;
 
     private bool breathIsPlaying = false;
@@ -64,7 +71,14 @@ public class MediBreathPrompt : MonoBehaviour
 
         breathInstance = audioManager.CreateEventInstance(FMODEvents.Instance.breathIn);
 
-        StartCoroutine(PromptPlayer());
+        natureAmbientInstnace.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+
+        if(promptAtStart) {
+            StartCoroutine(PromptPlayer());
+        } else {
+            StartCoroutine(PrePromptEvent());
+            // beforePromptEvent.Invoke(timeToStart);
+        }
     }
 
     private void Update() {
@@ -128,9 +142,17 @@ public class MediBreathPrompt : MonoBehaviour
         StartCoroutine(PromptPlayer());
     }
 
+    public void TriggerPrompt() {
+        StartCoroutine(PromptPlayer());
+    }
+
+    private IEnumerator PrePromptEvent() {
+        yield return new WaitForSeconds(timeToStart);
+        beforePromptEvent.Invoke();
+    }
+
     private IEnumerator PromptPlayer() {
-        natureAmbientInstnace.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(timeToStart);
         float alphaValue = 0;
         while(alphaValue < 1) {
             breathPromptText.alpha = alphaValue;
@@ -166,5 +188,9 @@ public class MediBreathPrompt : MonoBehaviour
 
         sphereFov.SetActive(false);
         player.gameObject.layer = LayerMask.NameToLayer("Black");
+
+        yield return new WaitForSeconds(1);
+
+        afterPromptEvent.Invoke();
     }
 }

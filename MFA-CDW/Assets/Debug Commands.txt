@@ -1,0 +1,12 @@
+Existing Debugs:
+G while on the bike takes you to convo nav. 
+0 (The number) will skip the conversation. 
+Q while off the bike and Chase is in the sitting animation will teleport the player to walking 4.
+= while off the bike and Chase is in the sitting animation teleports you to conversation navigation 1. 
+F while off the bike and Chase is in the sitting animation teleports you to the cave. 
+T while off the bike and Chase is in the sitting animation teleports you to walking 2.
+H while off the bike and Chase is in the sitting animation teleports you to convo nav 2.
+Y while off the bike and Chase is in the sitting animation teleports you to the vista near the cave.
+O (The letter) to exit the vista once you've started. Shouldn't be needed for anything but vista 3 and 4.
+U to start the cutscene carousel; currently only the cave cutscene is available.
+J to end the cutscene carousel early

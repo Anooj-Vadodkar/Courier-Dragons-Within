@@ -7,75 +7,57 @@ AvatarMask:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Tag_FaceMask
-  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Mask: 00000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_Elements:
   - m_Path: 
     m_Weight: 1
-  - m_Path: Tag
+  - m_Path: Chase
     m_Weight: 0
-  - m_Path: Tag/Body
+  - m_Path: Chase/Body_low
     m_Weight: 0
-  - m_Path: Tag/Body/Eyebrows_low
+  - m_Path: Chase/Body_low/Bandaid
     m_Weight: 0
-  - m_Path: Tag/Body/Eyes_low
+  - m_Path: Chase/Body_low/Chase_Body_low
     m_Weight: 0
-  - m_Path: Tag/Body/LowerTeeth_low
+  - m_Path: Chase/Clothing
     m_Weight: 0
-  - m_Path: Tag/Body/Tag_body_low
+  - m_Path: Chase/Clothing/Hoodie_low
     m_Weight: 0
-  - m_Path: Tag/Body/Tag_Head_low
+  - m_Path: Chase/Clothing/Hoodie_low/HoodieStrings_low
     m_Weight: 0
-  - m_Path: Tag/Body/Tongue_low
+  - m_Path: Chase/Clothing/Hoodie_low/Label
     m_Weight: 0
-  - m_Path: Tag/Body/UpperTeeth_low
+  - m_Path: Chase/Clothing/Pants_low
     m_Weight: 0
-  - m_Path: Tag/Clothing
+  - m_Path: Chase/Clothing/ShoeBase_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Gloves_low
+  - m_Path: Chase/Clothing/ShoeKnot_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Pants_low
+  - m_Path: Chase/Clothing/ShoeLaces_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shirt_low
+  - m_Path: Chase/Clothing/ShoeLoops_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes
+  - m_Path: Chase/Clothing/ShoeTop_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Back_low
+  - m_Path: Chase/Clothing/Socks_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Base_low
+  - m_Path: Chase/Face
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Decal_low
+  - m_Path: Chase/Face/Chase_Head_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Front_low
+  - m_Path: Chase/Face/Earing_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Guard_low
+  - m_Path: Chase/Face/Eyebrows_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Label_low
+  - m_Path: Chase/Face/Eyes_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Laces_low
+  - m_Path: Chase/Face/Hair_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Noodle_low
+  - m_Path: Chase/Face/LowerTeeth_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Shoes/Rings_low
+  - m_Path: Chase/Face/Tongue_low
     m_Weight: 0
-  - m_Path: Tag/Clothing/Socks_low
-    m_Weight: 0
-  - m_Path: Tag/Clothing/Zipper
-    m_Weight: 0
-  - m_Path: Tag/Clothing/Zipper/ZipperBottom_low
-    m_Weight: 0
-  - m_Path: Tag/Clothing/Zipper/ZipperTeeth_low
-    m_Weight: 0
-  - m_Path: Tag/Clothing/Zipper/ZipperTop_low
-    m_Weight: 0
-  - m_Path: Tag/Hair
-    m_Weight: 0
-  - m_Path: Tag/Hair/Beard_low
-    m_Weight: 0
-  - m_Path: Tag/Hair/Eyelashes_low
-    m_Weight: 0
-  - m_Path: Tag/Hair/HairBase_low
-    m_Weight: 0
-  - m_Path: Tag/Hair/HairLocks_low
+  - m_Path: Chase/Face/UpperTeeth_low
     m_Weight: 0
   - m_Path: world_constraint
     m_Weight: 0
@@ -83,49 +65,39 @@ AvatarMask:
     m_Weight: 0
   - m_Path: world_joint/hip_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/FK_lf_leg_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_lf_leg_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/FK_lf_leg_joint/FK_lf_knee_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_lf_leg_joint/FK_lf_knee_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/FK_lf_leg_joint/FK_lf_knee_joint/FK_lf_ankle_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_lf_leg_joint/FK_lf_knee_joint/FK_lf_ankle_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/FK_lf_leg_joint/FK_lf_knee_joint/FK_lf_ankle_joint/FK_lf_foot_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_lf_leg_joint/FK_lf_knee_joint/FK_lf_ankle_joint/FK_lf_foot_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/FK_lf_leg_joint/FK_lf_knee_joint/FK_lf_ankle_joint/FK_lf_foot_joint/FK_lf_toe_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_rt_leg_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/IK_lf_leg_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_rt_leg_joint/FK_rt_knee_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/IK_lf_leg_joint/IK_lf_knee_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_rt_leg_joint/FK_rt_knee_joint/FK_rt_ankle_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/IK_lf_leg_joint/IK_lf_knee_joint/IK_lf_ankle_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/FK_rt_leg_joint/FK_rt_knee_joint/FK_rt_ankle_joint/FK_rt_foot_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/IK_lf_leg_joint/IK_lf_knee_joint/IK_lf_ankle_joint/IK_lf_foot_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_lf_leg_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_lf_leg_joints/IK_lf_leg_joint/IK_lf_knee_joint/IK_lf_ankle_joint/IK_lf_foot_joint/IK_lf_toe_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_lf_leg_joint/IK_lf_knee_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_lf_leg_joint/IK_lf_knee_joint/IK_lf_ankle_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/FK_rt_leg_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_lf_leg_joint/IK_lf_knee_joint/IK_lf_ankle_joint/IK_lf_foot_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/FK_rt_leg_joint/FK_rt_knee_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_rt_leg_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/FK_rt_leg_joint/FK_rt_knee_joint/FK_rt_ankle_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_rt_leg_joint/IK_rt_knee_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/FK_rt_leg_joint/FK_rt_knee_joint/FK_rt_ankle_joint/FK_rt_foot_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_rt_leg_joint/IK_rt_knee_joint/IK_rt_ankle_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/FK_rt_leg_joint/FK_rt_knee_joint/FK_rt_ankle_joint/FK_rt_foot_joint/FK_rt_toe_joint
-    m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/IK_rt_leg_joint
-    m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/IK_rt_leg_joint/IK_rt_knee_joint
-    m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/IK_rt_leg_joint/IK_rt_knee_joint/IK_rt_ankle_joint
-    m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/IK_rt_leg_joint/IK_rt_knee_joint/IK_rt_ankle_joint/IK_rt_foot_joint
-    m_Weight: 0
-  - m_Path: world_joint/hip_joint/IK_FK_rt_leg_joints/IK_rt_leg_joint/IK_rt_knee_joint/IK_rt_ankle_joint/IK_rt_foot_joint/IK_rt_toe_joint
+  - m_Path: world_joint/hip_joint/IK_FK_Leg_Joints/IK_rt_leg_joint/IK_rt_knee_joint/IK_rt_ankle_joint/IK_rt_foot_joint
     m_Weight: 0
   - m_Path: world_joint/hip_joint/lf_leg_joint
     m_Weight: 0
@@ -135,7 +107,7 @@ AvatarMask:
     m_Weight: 0
   - m_Path: world_joint/hip_joint/lf_leg_joint/lf_knee_joint/lf_ankle_joint/lf_foot_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/lf_leg_joint/lf_knee_joint/lf_ankle_joint/lf_foot_joint/lf_toe_joint
+  - m_Path: world_joint/hip_joint/lf_leg_joint/lf_knee_joint/lf_ankle_joint/lf_foot_joint/lf_toes_joint
     m_Weight: 0
   - m_Path: world_joint/hip_joint/rt_leg_joint
     m_Weight: 0
@@ -145,7 +117,7 @@ AvatarMask:
     m_Weight: 0
   - m_Path: world_joint/hip_joint/rt_leg_joint/rt_knee_joint/rt_ankle_joint/rt_foot_joint
     m_Weight: 0
-  - m_Path: world_joint/hip_joint/rt_leg_joint/rt_knee_joint/rt_ankle_joint/rt_foot_joint/rt_toe_joint
+  - m_Path: world_joint/hip_joint/rt_leg_joint/rt_knee_joint/rt_ankle_joint/rt_foot_joint/rt_toes_joint
     m_Weight: 0
   - m_Path: world_joint/hip_joint/waist_joint
     m_Weight: 0
@@ -254,7 +226,7 @@ AvatarMask:
   - m_Path: world_joint/hip_joint/waist_joint/midbody_joint/chest_joint/neck_joint/head_joint/rt_eye_joint
     m_Weight: 1
   - m_Path: world_joint/hip_joint/waist_joint/midbody_joint/chest_joint/neck_joint/head_joint/rt_inner_eye_joint
-    m_Weight: 1
+    m_Weight: 0
   - m_Path: world_joint/hip_joint/waist_joint/midbody_joint/chest_joint/neck_joint/head_joint/rt_inner_eyebrow_joint
     m_Weight: 1
   - m_Path: world_joint/hip_joint/waist_joint/midbody_joint/chest_joint/neck_joint/head_joint/rt_lower_eye_joint

@@ -15,6 +15,8 @@ public class ExternalTagController : MonoBehaviour
     [SerializeField]
     private Animator animator;
 
+    [SerializeField]
+    private float distanceFromChase;
     //private Rigidbody rb; OLD
     //private NavMeshAgent controller;
 
@@ -46,6 +48,9 @@ public class ExternalTagController : MonoBehaviour
     [SerializeField]
     private Vector3 destination;
 
+    [SerializeField]
+    private Transform walking2Dest;
+
     private bool paused = false;
 
     private AudioManager audioManager;
@@ -76,13 +81,15 @@ public class ExternalTagController : MonoBehaviour
         animator.SetFloat(speedHash, (tagNavMesh.velocity.magnitude));
         if (IndependentWalking && player != null && destination != null)
         {
-            if (Vector3.Distance(transform.position, player.transform.position) < 4.0f)
+            if (Vector3.Distance(transform.position, player.transform.position) < distanceFromChase)
             {
                 tagNavMesh.SetDestination(destination);
             }
             else
             {
-                tagNavMesh.ResetPath();
+                if(tagNavMesh.isActiveAndEnabled) {
+                    tagNavMesh.ResetPath();
+                }
             }
         }
         
@@ -118,6 +125,11 @@ public class ExternalTagController : MonoBehaviour
         StartCoroutine("PlayWave");
     }
 
+    public void DebugWalking3Teleport()
+    {
+        this.transform.position = walking2Dest.position;
+    }
+
     IEnumerator PlayWave()
     {
         yield return new WaitForSeconds(4.0f);
@@ -127,6 +139,11 @@ public class ExternalTagController : MonoBehaviour
     public void SetPaused(bool value)
     {
         paused = value;
+    }
+
+    public void SetWalking(bool walking)
+    {
+        IndependentWalking = walking;
     }
 
 }

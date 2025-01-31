@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: FMOD_CDW/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638601850331087640
+  lastModified: 638722989997296515
   FileSizes:
   - Name: Desktop
-    Value: 5014
+    Value: 5064
   Exists: 1
 --- !u!114 &-8424023372989455619
 MonoBehaviour:
@@ -247,10 +247,10 @@ MonoBehaviour:
   Path: FMOD_CDW/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638601850331047638
+  lastModified: 638722989997286509
   FileSizes:
   - Name: Desktop
-    Value: 25721888
+    Value: 25726880
   Exists: 1
 --- !u!114 &-6149305200571236958
 MonoBehaviour:
@@ -1048,6 +1048,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-1282313142552152328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_AX_Bird_Sounds/PAR_AX_SCATTERER_TOGGLE
+  m_EditorClassIdentifier: 
+  Name: PAR_AX_SCATTERER_TOGGLE
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2580732842
+    data2: 4158941427
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-1218865240078965780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1100,6 +1124,30 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-762841438596177972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/EVNT_LP_AX_Bird_Sounds/PAR_AX_VISTAWIND
+  m_EditorClassIdentifier: 
+  Name: PAR_AX_VISTAWIND
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2496228750
+    data2: 2309388273
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
 --- !u!114 &-706852492825835167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1127,6 +1175,35 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-548363530654696420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/EVNT_LP_AX_Bird_Sounds
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/EVNT_LP_AX_Bird_Sounds
+  Guid:
+    Data1: 1175312184
+    Data2: 1158453324
+    Data3: 2079087753
+    Data4: -1498744492
+  Banks:
+  - {fileID: -6152287625119534110}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -1282313142552152328}
+  - {fileID: -762841438596177972}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9325
 --- !u!114 &-312253664501598396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,6 +1334,7 @@ MonoBehaviour:
   - {fileID: -5796403855016635325}
   - {fileID: -2524796259378282618}
   - {fileID: 3700810928776568520}
+  - {fileID: -548363530654696420}
   EditorParameters:
   - {fileID: 6157146930030205238}
   - {fileID: -2220223693543014707}
@@ -1265,7 +1343,7 @@ MonoBehaviour:
   - {fileID: -6152287625119534110}
   StringsBanks:
   - {fileID: -8580588300614572609}
-  cacheTime: 638601850331087640
+  cacheTime: 638722989997296515
   cacheVersion: 131608
 --- !u!114 &81387086783230981
 MonoBehaviour:

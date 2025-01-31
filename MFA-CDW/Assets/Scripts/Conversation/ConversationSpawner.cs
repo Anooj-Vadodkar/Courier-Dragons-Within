@@ -52,7 +52,6 @@ public class ConversationSpawner : MonoBehaviour
         firstButton.SetActive(true);
         secondButton.SetActive(true);
         thirdButton.SetActive(true);
-        dialogueWrapper.DelayedRefreshConversation();
         this.gameObject.SetActive(false);
 
         //AudioManager.Instance.PlayEvent(FMODEvents.Instance.SamQuestionVO, Camera.main.transform.position);

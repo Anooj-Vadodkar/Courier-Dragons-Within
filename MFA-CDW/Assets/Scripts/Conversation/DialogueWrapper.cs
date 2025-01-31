@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using PixelCrushers.DialogueSystem;
 using SBPScripts;
 using Cinemachine;
 using TMPro;
@@ -46,7 +45,7 @@ public class DialogueWrapper : MonoBehaviour
     [SerializeField]
     private GameObject thirdResponse;
     public ExternalController player;
-    private Conversation _currentConversation;
+
 
     [SerializeField]
     private string[] emotionStringsArray; //DESIGNER SETUP ONLY, DO NOT ACCESS AFTER DICTIONARY IS BUILT
@@ -71,7 +70,7 @@ public class DialogueWrapper : MonoBehaviour
             Destroy(this);
         }
     }
-
+    /*
     void Start()
     {
         SetupDictionary();
@@ -298,7 +297,7 @@ public class DialogueWrapper : MonoBehaviour
                     case 2:
                         Invoke("TurnOff", 7.0f);
                         break;
-                }*/
+                }
                 Invoke("TurnOff", 7.0f);
             }
         }
@@ -368,4 +367,5 @@ public class DialogueWrapper : MonoBehaviour
             fontDictionary.Add(emotionStringsArray[i], emotionFontsArray[i]);
         }
     }
+    */
 }

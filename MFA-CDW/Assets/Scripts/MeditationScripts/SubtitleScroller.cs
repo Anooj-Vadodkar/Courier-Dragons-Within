@@ -42,7 +42,7 @@ public class SubtitleScroller : MonoBehaviour
         public string name;
     }
 
-    private void Start() {
+    private void Awake() {
         subtitlesInstances = new List<GameObject>();
     }
 

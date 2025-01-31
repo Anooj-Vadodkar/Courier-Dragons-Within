@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using PixelCrushers.DialogueSystem;
 
 // Rename this class to the same name that you used for the script file.
 // Add the script to your Dialogue Manager. You can optionally make this 
@@ -48,9 +47,9 @@ public class BreathingMonitor : MonoBehaviour // Rename this class.
     void OnEnable()
     {
         // Make the functions available to Lua: (Replace these lines with your own.)
-        Lua.RegisterFunction(nameof(DebugLog), this, SymbolExtensions.GetMethodInfo(() => DebugLog(string.Empty)));
-        Lua.RegisterFunction(nameof(AddOne), this, SymbolExtensions.GetMethodInfo(() => AddOne((double)0)));
-        Lua.RegisterFunction(nameof(Reconsider), this, SymbolExtensions.GetMethodInfo(() => AddOne((double)0)));
+        //Lua.RegisterFunction(nameof(DebugLog), this, SymbolExtensions.GetMethodInfo(() => DebugLog(string.Empty)));
+       // Lua.RegisterFunction(nameof(AddOne), this, SymbolExtensions.GetMethodInfo(() => AddOne((double)0)));
+        //Lua.RegisterFunction(nameof(Reconsider), this, SymbolExtensions.GetMethodInfo(() => AddOne((double)0)));
     }
 
     void OnDisable()
@@ -58,8 +57,8 @@ public class BreathingMonitor : MonoBehaviour // Rename this class.
         if (unregisterOnDisable)
         {
             // Remove the functions from Lua: (Replace these lines with your own.)
-            Lua.UnregisterFunction(nameof(DebugLog));
-            Lua.UnregisterFunction(nameof(AddOne));
+            //Lua.UnregisterFunction(nameof(DebugLog));
+            //Lua.UnregisterFunction(nameof(AddOne));
         }
     }
 

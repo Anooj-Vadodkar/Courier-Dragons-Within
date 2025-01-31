@@ -48,7 +48,8 @@ public class VistaEntranceZone : MonoBehaviour
     [SerializeField] private List<GameObject> finalShotCams;
     [SerializeField] private GameObject externalAIOne;
     [SerializeField] private GameObject externalAITwo;
-
+    [SerializeField] private ExternalController player;
+    
     private InputManager _inputManager;
     private GraphicRaycaster _gr;
     private bool textFinished = false;
@@ -131,6 +132,7 @@ public class VistaEntranceZone : MonoBehaviour
 
     private void Update()
     {
+        // Debug.Log(_firstTimeTriggered);
         if(_firstTimeTriggered && _thoughtsCompleted < _disappearingText.Length)
         {
             //Camera panning with cursor stuff
@@ -172,12 +174,12 @@ public class VistaEntranceZone : MonoBehaviour
                     if(!_breathePrompt.gameObject.activeSelf)
                     {
                         _breathePrompt.gameObject.SetActive(true);
-                        cursorAlpha.alpha = 0f;
+                        //cursorAlpha.alpha = 0f;
                     }
                     if (_breathObserver.IsOverThreshold && _breathObserver.hasJumped)
                     {
                         _breathePrompt.gameObject.SetActive(false);
-                        cursorAlpha.alpha = 0.5f;
+                        //cursorAlpha.alpha = 0.5f;
                         _triggered[_thoughtsCompleted] = true;
                         StartCoroutine("StartFade", _thoughtsCompleted);
                         _reticles[_thoughtsCompleted].Disable();
@@ -207,7 +209,7 @@ public class VistaEntranceZone : MonoBehaviour
                 {
                     _reticles[_thoughtsCompleted].SetCursorDistance(0);
                     _breathePrompt.gameObject.SetActive(false);
-                    cursorAlpha.alpha = 0.5f;
+                    //cursorAlpha.alpha = 0.5f;
                 }
                 if (Input.GetKeyDown(KeyCode.O))
                 {
@@ -229,7 +231,8 @@ public class VistaEntranceZone : MonoBehaviour
             if(!breathingIn) {
                 breathingIn = true;
                 breathIn.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(Camera.main.transform));
-                breathIn.start();
+                // Needs to be fixed, plays all the time
+                // breathIn.start();
             }
             // if haven't started beathing in then start playing breath sound.
             if (breath < breathTime)
@@ -261,7 +264,8 @@ public class VistaEntranceZone : MonoBehaviour
             if (breathedIn)
             {
                 breathedIn = false;
-                AudioManager.Instance.PlayEvent(FMODEvents.Instance.breathOutOutside);
+                // Needs to be fixed, plays all the time
+                // AudioManager.Instance.PlayEvent(FMODEvents.Instance.breathOutOutside);
                 // breathIn.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             }
 
@@ -288,6 +292,11 @@ public class VistaEntranceZone : MonoBehaviour
     }
 
     private IEnumerator TextFinished() {
+        if (player != null)
+        {
+            player.PlayEnterMedCutscene("Meditation2");
+            yield return null;
+        }
         yield return new WaitForSeconds(12.0f);
         AudioManager.Instance.PlayEvent(FMODEvents.Instance.riffsTogether);
         _vistaController._crosshair.enabled = false;
@@ -353,6 +362,11 @@ public class VistaEntranceZone : MonoBehaviour
         }
     }
 
+    public void SetTextMeshRenderer(int index)
+    {
+        _dialogueTexts[index].enabled = true;
+    }
+
     public void SetCanMove(bool val)
     {
         canMove = val;
@@ -361,5 +375,10 @@ public class VistaEntranceZone : MonoBehaviour
     {
         yield return new WaitForSeconds(0.0f);
         _vistaController.LeaveVista();
+    }
+
+    public void SetFirstTimeTriggered(bool firstTimeTriggered)
+    {
+        _firstTimeTriggered = firstTimeTriggered;
     }
 }

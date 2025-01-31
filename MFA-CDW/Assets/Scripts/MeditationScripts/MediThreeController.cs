@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using System.Threading;
 using TMPro;
 //using UnityEditorInternal;
 using UnityEngine;
@@ -21,9 +23,12 @@ public class MediThreeController : MonoBehaviour
     [SerializeField] private List<ConfBulletSpawner> spawners;
     [SerializeField] private GameObject breathThoughtPrefab;
     [SerializeField] private RawImage whiteFade;
+    [SerializeField] private GameObject mazeGates;
     public List<HomingThought> allBullets;
     private int breathsTaken = 0;
     private int thoughtCounter = 0;
+
+    private bool inMaze = false;
 
     public void IncrementThoughtCounter() {
         allBullets = new List<HomingThought>();
@@ -36,6 +41,13 @@ public class MediThreeController : MonoBehaviour
             breathsTaken++;
             StartCoroutine(BreathWave());
             StartCoroutine(MoveToCenter());
+        }
+    }
+
+    private void Update() {
+        if(!inMaze && InputManager.Instance.GetConfrontPressed()) {
+            inMaze = true;
+            StartCoroutine(TransitionToMaze());
         }
     }
 
@@ -119,6 +131,7 @@ public class MediThreeController : MonoBehaviour
             
             yield return new WaitForEndOfFrame();
         }
+        mazeGates.SetActive(true);
 
         // enable collider
         mazeCollider.enabled = true;

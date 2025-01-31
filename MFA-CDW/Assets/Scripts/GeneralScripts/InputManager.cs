@@ -65,18 +65,20 @@ public class InputManager : MonoBehaviour
 
     // Update sensitivity based on control method
     public void UpdateSensitivity() {
-        if(!GameManager.Instance.isInMeditation()) {
-            if(cameraController == null) {
-                cameraController = CameraController.Instance;
-            }
-            if(cameraController.GetCurrentCam() != null) {
-                if(cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>() != null) {
-                    if(isUsingController) {
-                        cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_XAxis.m_MaxSpeed = controllerXSensitivity;
-                        cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_YAxis.m_MaxSpeed = controllerYSensitivity;
-                    } else {
-                        cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_XAxis.m_MaxSpeed = mouseXSensitivity;
-                        cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_YAxis.m_MaxSpeed = mouseYSensitivity;
+        if(GameManager.Instance) {
+            if(!GameManager.Instance.isInMeditation()) {
+                if(cameraController == null) {
+                    cameraController = CameraController.Instance;
+                }
+                if(cameraController.GetCurrentCam() != null) {
+                    if(cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>() != null) {
+                        if(isUsingController) {
+                            cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_XAxis.m_MaxSpeed = controllerXSensitivity;
+                            cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_YAxis.m_MaxSpeed = controllerYSensitivity;
+                        } else {
+                            cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_XAxis.m_MaxSpeed = mouseXSensitivity;
+                            cameraController.GetCurrentCam().GetComponent<CinemachineFreeLook>().m_YAxis.m_MaxSpeed = mouseYSensitivity;
+                        }
                     }
                 }
             }
@@ -198,8 +200,18 @@ public class InputManager : MonoBehaviour
 
     // Transition to convorsation scene debut input pressed
     public bool GetBikingConvoScenePressed() {
-        CheckControllerInput(playerInput.Debug.MediScene);
+        CheckControllerInput(playerInput.Debug.BikingConvoScene);
         return playerInput.Debug.BikingConvoScene.triggered;
+    }
+
+    public bool GetRightPedalPressed() {
+        CheckControllerInput(playerInput.Player.RightPedal);
+        return playerInput.Player.RightPedal.triggered;
+    }
+
+    public bool GetLeftPedalPressed() {
+        CheckControllerInput(playerInput.Player.LeftPedal);
+        return playerInput.Player.LeftPedal.triggered;
     }
 
     public bool GetPathTestPressed() {

@@ -24,7 +24,12 @@ public class ConfrontationBreathZone : MonoBehaviour
     // Breath prompts
     [SerializeField] private GameObject breathPrompt;
     [SerializeField] private EventReference eventRef;
-    [SerializeField] private GameObject collisionGate; 
+    [SerializeField] private GameObject collisionGate;
+    [SerializeField] private NextLabyrinthSectionActivate transitionSection;
+
+    [SerializeField] private GameObject LabyrinthOverall;
+    [SerializeField] private GameObject PartialLabyrinth;
+
 
     //states
     private float breathValue = 0f;
@@ -42,6 +47,9 @@ public class ConfrontationBreathZone : MonoBehaviour
     private EventInstance breathInstance;
     private bool isBreathPlaying = false;
     private bool isBreathingOut = false;
+
+    private bool firstTimeEntered = true;
+    [SerializeField] private UnityEvent enteredEvent;
 
     private void Awake()
     {
@@ -143,9 +151,18 @@ public class ConfrontationBreathZone : MonoBehaviour
                         GetComponent<SpriteRenderer>().enabled = false;
                     }
 
-                    if(collisionGate) {
+                    if (transitionSection)
+                        transitionSection.SetFadeOut(true);
+
+                    if(collisionGate) 
                         collisionGate.SetActive(false);
-                    }
+
+                    if (LabyrinthOverall)
+                        LabyrinthOverall.SetActive(false);
+
+                    if (PartialLabyrinth)
+                        PartialLabyrinth.SetActive(false);
+
 
                     // Destroy(gameObject);
                 }
@@ -157,10 +174,17 @@ public class ConfrontationBreathZone : MonoBehaviour
         if(other.CompareTag("Player")) {
             if(breathPrompt) {
                 breathPrompt.SetActive(true);
-                promptAnim.SetBool("ShowBreathPrompt", true);
-                ringAnim.speed = 3f;
+                if(promptAnim) {
+                    promptAnim.SetBool("ShowBreathPrompt", true);
+                }
+                if(ringAnim) {
+                    ringAnim.speed = 3f;
+                }
                 StartCoroutine(StartTriggerAnimation());
-
+            }
+            if(firstTimeEntered) {
+                firstTimeEntered = false;
+                enteredEvent.Invoke();
             }
         }
     }
@@ -171,9 +195,17 @@ public class ConfrontationBreathZone : MonoBehaviour
         {
             if(breathPrompt) {
                 breathPrompt.SetActive(false);
-                promptAnim.SetBool("ShowBreathPrompt", false);
-                ringAnim.speed = 1f;
-                ringAnim.SetBool("PlayerInsideRing", true);
+                if(promptAnim) {
+                    promptAnim.SetBool("ShowBreathPrompt", false);
+                } else {
+                    Debug.LogWarning("ConfrontationBreathZone Error: variable 'promptAnim' not set");
+                }
+                if(ringAnim) {
+                    ringAnim.speed = 1f;
+                    ringAnim.SetBool("PlayerInsideRing", true);
+                } else {
+                    Debug.LogWarning("ConfrontationBreathZone Error: variable 'ringAnim' not set");
+                }
             }
             if (!breathedIn) {
                 //return to normal size/pos
@@ -191,8 +223,11 @@ public class ConfrontationBreathZone : MonoBehaviour
     IEnumerator StartTriggerAnimation()
     {
         yield return new WaitForSeconds(4);
-
-        triggerAnim.SetBool("TriggerAnim", true);
+        if(triggerAnim) {
+            triggerAnim.SetBool("TriggerAnim", true);
+        } else {
+            Debug.LogWarning("ConfrontationBreathZone Error: variable 'triggerAnim' not set");
+        }
 
     }
 

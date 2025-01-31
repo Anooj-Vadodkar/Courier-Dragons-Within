@@ -49,7 +49,8 @@ public class EndMeditation : MonoBehaviour
         yield return new WaitForSeconds(2.0f);
 
         AudioManager.Instance.StopMusic();
-        shakingSound.StopLoopingTrack();
+        if(shakingSound)
+            shakingSound.StopLoopingTrack();
         // fade to white
         float alpha = 0;
         while(alpha < 1) {

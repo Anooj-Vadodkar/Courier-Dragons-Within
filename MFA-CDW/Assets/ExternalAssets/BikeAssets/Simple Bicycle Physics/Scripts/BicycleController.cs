@@ -386,6 +386,8 @@ namespace SBPScripts
                 elapsedTime += Time.deltaTime;
                 float percentageComplete = elapsedTime / 10.0f;
                 GetComponent<Rigidbody>().drag = Mathf.Lerp(0.1f, 20f, percentageComplete);
+                if (GetComponent<Rigidbody>().drag >= 20f)
+                    halt = false;
             }
         }
         void Update()
@@ -426,6 +428,13 @@ namespace SBPScripts
         {
             return halt;
         }
+
+        public void SetDrag(float newDrag)
+        {
+            GetComponent<Rigidbody>().drag = newDrag;
+        }
+            
+
         void ApplyCustomInput()
         {
             if (wayPointSystem.recordingState == WayPointSystem.RecordingState.DoNothing || wayPointSystem.recordingState == WayPointSystem.RecordingState.Record)

@@ -46,7 +46,7 @@ namespace SBPScripts
         protected override void Start()
         {
             base.Start();
-            road = FindObjectOfType<PathCreator>();
+            //road = FindObjectOfType<PathCreator>();
             nextPointOnPath = road.path.GetClosestPointOnPath(transform.position);
             baseTopSpeed = topSpeed;
             currBikeState = BikeState.Biking;
@@ -82,7 +82,7 @@ namespace SBPScripts
                 {
                     pathChangeY = .001f;
                 }
-                Debug.Log(pathChangeY);
+                // Debug.Log(pathChangeY);
                 nextPointOnPath = tempTarget;
                 
 
@@ -97,13 +97,18 @@ namespace SBPScripts
             }
 
             float distanceFromChase = Vector3.Distance(transform.position, chaseTransform.position);
-
+            topSpeed = (1 / distanceFromChase) * 20;
             if (currBikeState == BikeState.Stop)
             {
+                if (distanceFromChase < (chaseMaxDistance - 2))
+                {
+                    //Debug.Log("too close " + distanceFromChase); //speed up
+                    currBikeState = BikeState.Biking;
+                }
                 if (distanceToTarget > distanceFromPoint)
                 {
-                    Debug.Log("distanceToTarget: " + distanceToTarget);
-                    Debug.Log("1");
+                    // Debug.Log("distanceToTarget: " + distanceToTarget);
+                    // Debug.Log("1");
 
                     mAccelerateTime += Time.deltaTime;
                     float accelerationMagnitude = Mathf.Lerp(rb.velocity.magnitude, 0,
@@ -115,24 +120,20 @@ namespace SBPScripts
                 }
                 else
                 {
-                    Debug.Log("2");
+                    // Debug.Log("2");
                     rb.velocity = Vector3.zero;
                 }
             }
             else if (currBikeState == BikeState.Biking)
             {
-                /*//slow down or speed up according to chase's position
+                //slow down or speed up according to chase's position
+                
                 if (distanceFromChase > (chaseMaxDistance + 2) && topSpeed >= 0)
                 {
                     //Debug.Log("too far " + distanceFromChase); //slow down
-                    topSpeed -= 10.0f;
-
+                    topSpeed = 0.0f;
+                    currBikeState = BikeState.Stop;
                 }
-                else if (distanceFromChase < (chaseMaxDistance - 2))
-                {
-                    //Debug.Log("too close " + distanceFromChase); //speed up
-                    topSpeed += 10.0f;
-                }*/
 
                 //if (steerAmount >= minSteerAmount)
                 {
@@ -161,6 +162,16 @@ namespace SBPScripts
         public void ChangeBikeState(BikeState newState)
         {
             currBikeState = newState;
+        }
+
+        public void SetIsBiking(bool val)
+        {
+            isBiking = val;
+        }
+
+        public void SetPath(PathCreator newPath)
+        {
+            road = newPath;
         }
 
         public BikeState GetBikeState()

@@ -157,7 +157,6 @@ public class FadeableText : MonoBehaviour
     private void HandleTextClicked(ClickableText clickable, PointerEventData eventData)
     {
         if(!_isReadyToRefresh) { return; }
-        DialogueWrapper._instance.ChooseResponse(responseNumber);
     }
 
     public void ClearText()

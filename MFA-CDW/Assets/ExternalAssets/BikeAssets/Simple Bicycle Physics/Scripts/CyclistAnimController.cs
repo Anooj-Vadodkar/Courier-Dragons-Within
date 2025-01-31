@@ -7,7 +7,7 @@ namespace SBPScripts
     public class CyclistAnimController : MonoBehaviour
     {
         BicycleController bicycleController;
-        Animator anim;
+        [SerializeField] Animator anim;
         InputManager inputManager;
         CameraController cameraController;
         string clipInfoCurrent, clipInfoLast;
@@ -31,8 +31,6 @@ namespace SBPScripts
         private GameObject thirdPersonCamera;
         [SerializeField]
         private GameObject firstGate;
-        [SerializeField]
-        private GameObject bikeLights;
         private bool disableParkingWaypoint = false;
         [SerializeField] private ParticleSystem parkingWaypoint;
         [SerializeField]
@@ -63,7 +61,7 @@ namespace SBPScripts
         public bool canMount = false;
         private Vector3 AITeleport = new Vector3(797.25f, 36.54f, 708.99f);
 
-        //TagBikingAI tagBikingAI;
+        private TagBikingAI tagBikingAI;
         void Start()
         {
             inputManager = InputManager.Instance;
@@ -90,7 +88,7 @@ namespace SBPScripts
             hipIK.GetComponent<MultiParentConstraint>().weight = 0;
             headIK.GetComponent<MultiAimConstraint>().weight = 0;
 
-            //tagBikingAI = FindObjectOfType<TagBikingAI>();
+            tagBikingAI = FindObjectOfType<TagBikingAI>();
         }
 
         void Update()
@@ -239,7 +237,7 @@ namespace SBPScripts
                     {
                         if ((Vector3.Magnitude(externalCharacter.transform.GetChild(0).position - transform.position) < 6.0f) && canMount)
                         {
-                            bikeLights.SetActive(true);
+
                             //AudioManager.Instance.SetMusicParam(MusicState.BIKING);
                             // AudioManager.Instance.PlayEvent(FMODEvents.Instance.chaseMonologue, Camera.main.transform.position);
                             bikeMount.SetActive(false);
@@ -254,13 +252,15 @@ namespace SBPScripts
                             promptText.SetActive(false);
                             externalAI.SetFollowPlayer(false);
                             //externalAI.prefab.Find("CharacterTestModel").SetActive(false);
-
+                            bicycleController.SetHalt(false);
+                            bicycleController.SetDrag(0.1f);
                             //tagAI.SetActive(true);
                             thirdPersonCamera.SetActive(true);
                             if (prevLocalPosX < 0)
                                 anim.Play("OnBike");
                             else
                                 anim.Play("OnBikeFlipped");
+                            tagBikingAI.isBiking = true;
                             StartCoroutine(AdjustRigWeight(0));
                         }
                         else
@@ -280,7 +280,7 @@ namespace SBPScripts
                         waitTime = 1.5f;
                         bicycleStatus.onBike = !bicycleStatus.onBike;
                         bikeDismount.SetActive(false);
-                        StartCoroutine(ToggleBikeLights());
+                        
                         anim.Play("OffBike");
                         canMount = true;
                         secondExternalAI.SetDestination(firstGate.transform.position);
@@ -293,23 +293,41 @@ namespace SBPScripts
                         externalCharacterCam.SetActive(true);
                         promptText.SetActive(true);
 
-                        //tagBikingAI.isBiking = false;;
+                        //tagBikingAI.isBiking = false;
                     }
                 }
                 prevLocalPosX = externalCharacter.transform.localPosition.x;
             }
         }
 
-        IEnumerator ToggleBikeLights()
-        {
-            yield return new WaitForSeconds(1.5f);
-            bikeLights.SetActive(!bikeLights.activeInHierarchy);
-            
-        }
-
         public void DismountPromptTrigger()
         {
             bikeDismount.SetActive(true);
+        }
+
+        public void SetBikingAI(TagBikingAI newBike)
+        {
+            tagBikingAI = newBike;
+        }
+
+        public void StartChaseTalking()
+        {
+            if (bicycleStatus.onBike)
+            {
+                Debug.Log("Start talking");
+                anim.SetBool("isTalking", true);
+            }
+                
+        }
+
+        public void StopChaseTalking()
+        {
+            if (bicycleStatus.onBike)
+            {
+                Debug.Log("Stop talking");
+                anim.SetBool("isTalking", false);
+            }
+                
         }
     }
 }
