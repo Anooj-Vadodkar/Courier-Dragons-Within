@@ -87,6 +87,8 @@ public class NewBikeController : MonoBehaviour
 
     private void Start() {
         transform.position = path.path.GetPointAtDistance(distanceAlongPath);
+
+        chaseModel.SetActive(false);
     }
 
     private void Update() {
@@ -344,6 +346,16 @@ public class NewBikeController : MonoBehaviour
             walkStub[subtitleIndex].gameObject.SetActive(true);
             subtitleIndex = -1;
         }
+    }
+
+    /* public void CrashDismount(Transform crashPoint) {
+        StartCoroutine(CrashDismountRoutine(crashPoint));
+    } */
+    
+    public IEnumerator CrashDismountRoutine(Transform point) {
+        yield return Dismount();
+        externalPlayer.transform.position = point.position;
+        externalPlayer.transform.rotation = point.rotation;
     }
 
     private float GetTimeBetweenPedal() {
