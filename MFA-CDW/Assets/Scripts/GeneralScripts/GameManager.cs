@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     [SerializedDictionary("Name", "Color")] public SerializedDictionary<string, Color> characters;
     private EventInstance natureAmbientInstnace;
     private AudioManager audioManager;
-    private int currentMeditation;
+    [SerializeField] private int currentMeditation;
 
     public static GameManager Instance {
         get {
@@ -51,6 +51,10 @@ public class GameManager : MonoBehaviour
             audioManager = AudioManager.Instance;
             // audioManager.PlayEvent(FMODEvents.Instance.natureAmbient, Camera.main.transform.position);
         }
+
+        /* if(SpawnLoader.Instance) {
+            SpawnLoader.Instance.LoadSpawnPoint(currentMeditation);
+        } */
     }
 
     private void Update() {
@@ -90,6 +94,15 @@ public class GameManager : MonoBehaviour
             // Play correct cutscene
         }
     }
+
+    /* private void LevelLoaded() {
+        if(SceneManager.GetActiveScene().name.Equals("Day1Scene_MHWVersion")) {
+            Debug.Log("Hit level load with meditation: " + currentMeditation);
+            if(SpawnLoader.Instance) {
+                SpawnLoader.Instance.LoadSpawnPoint(currentMedit)
+            }
+        }
+    } */
 
     public void SetMeditationNum(int num) {
         currentMeditation = num;

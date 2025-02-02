@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SpawnLoader : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class SpawnLoader : MonoBehaviour
     [SerializeField] private List<SpawnPoint> spList;
     [SerializeField] private List<GameObject> vistas;
     [SerializeField] private LightingManager lightingManager;
+
+    [SerializeField] private UnityEvent endMedi2Event;
+    [SerializeField] private UnityEvent endMedi3Event;
 
     private int currentIndex = 1;
     public static SpawnLoader instance;
@@ -51,12 +55,15 @@ public class SpawnLoader : MonoBehaviour
                 case 2: // coming out of meditation 2
                     currentIndex = 2;
                     lightingManager.SetTimeOfDay(15f);
-                    vistas[2].SetActive(true);
-                    vistas[3].SetActive(true);
+                    // vistas[2].SetActive(true);
+                    // vistas[3].SetActive(true);
+                    Debug.Log("Out of Medi 2 Event");
+                    endMedi2Event.Invoke();
                     break;
                 case 3: // coming out of meditation 3
                     currentIndex = 3;
                     lightingManager.SetTimeOfDay(4.5f);
+                    endMedi3Event.Invoke();
                     break;
             }
         }
