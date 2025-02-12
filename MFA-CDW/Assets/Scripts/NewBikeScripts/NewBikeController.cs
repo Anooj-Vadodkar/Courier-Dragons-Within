@@ -307,6 +307,8 @@ public class NewBikeController : MonoBehaviour
         yield return new WaitForSeconds(1);
         
         pedalUIPrompt.SetActive(true);
+
+        Camera.main.GetComponent<CinemachineBrain>().m_UpdateMethod = CinemachineBrain.UpdateMethod.SmartUpdate;
     }
 
     private IEnumerator Dismount() {
@@ -346,6 +348,8 @@ public class NewBikeController : MonoBehaviour
             walkStub[subtitleIndex].gameObject.SetActive(true);
             subtitleIndex = -1;
         }
+
+        Camera.main.GetComponent<CinemachineBrain>().m_UpdateMethod = CinemachineBrain.UpdateMethod.FixedUpdate;
     }
 
     /* public void CrashDismount(Transform crashPoint) {
